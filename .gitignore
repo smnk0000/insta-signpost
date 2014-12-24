@@ -1,0 +1,6 @@
+# Ignore Folders
+.idea
+vendor/bundle
+
+# Ignore Files
+.env
