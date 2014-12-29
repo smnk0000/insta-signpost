@@ -34,45 +34,38 @@ function get_4sq_venues(lat, lng) {
       lng: lng
     }
   }).done(function(data){
-    // ajax通信成功時
-    for (var i=0;i<data.length;i++) {
-      $("#venues").append((i+1) + " :: id => " + data[i].id + ", name => " + data[i].name + ", lat => " + data[i].location.lat + ", lng => " + data[i].location.lng + "<br />");
-    }
-    var medias = get_insta_media(data);
-    draw_map(lat, lng, data, medias);   // Google Mapを表示
+//    var medias = get_insta_media(data);
+    draw_map(lat, lng, data);   // Google Mapを表示
   }).fail(function(data){
     // ajax通信失敗時
   });
 }
 
 // Instagramよりvenueの写真を取得する
-function get_insta_media(venues) {
-  var medias = [];
-  for (var i=0;i<venues.length;i++) {
-    $.ajax({
-      cache: false,
-      type: "GET",
-      url: "/media.json",
-      dataType: "json",
-      data: {
-        id: venues[i].id
-      },
-      async: false
-    }).done(function(data){
-//      console.log(data);
-      medias.push(data);
-    }).fail(function(data){
-      console.log("NG");
-    });
-  }
+function get_insta_media(venue_id) {
+  var medias = {};
+  $.ajax({
+    cache: false,
+    type: "GET",
+    url: "/media.json",
+    dataType: "json",
+    data: {
+      id: venue_id
+    },
+    async: false
+  }).done(function(data){
+    medias = data;
+  }).fail(function(data){
+    console.log("NG");
+  });
   return medias;
 }
 
 // Google Mapを表示する
-function draw_map(lat, lng, data, medias) {
+function draw_map(lat, lng, venues) {
   var pos = new google.maps.LatLng(lat, lng);
   var mapOptions = {
-    zoom: 14,
+    zoom: 18,
     center: pos,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
@@ -87,27 +80,30 @@ function draw_map(lat, lng, data, medias) {
   attachMessage(marker, "現在地");
 
   // 4sqより取得した位置情報のマーカーを表示
-  for (var i=0;i<data.length;i++) {
+  for (var i=0;i<venues.length;i++) {
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(venues[i].location.lat, venues[i].location.lng),
+      map: map,
+      icon: venues[i].categories[0].icon.prefix + "bg_32" + venues[i].categories[0].icon.suffix,
+      title: venues[i].name
+    });
+    attachMessage(marker, venues[i].name, venues[i].id);
+/*
     if (!(!medias[i].length)) {
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(data[i].location.lat, data[i].location.lng),
-        map: map,
-        title: data[i].name
-      });
       var content = "<div style=\"width : 435px;height : 325px;\">";
       content += "<p><h3>" + data[i].name + "</h3></p>";
       for (var media_cnt=0;media_cnt < medias[i].length;media_cnt++) {
         content += "<a href=\"" + medias[i][media_cnt].link + "\" target=\"_blank\"><img src=\"" + medias[i][media_cnt].images.thumbnail.url + "\"></a>";
       }
       content += "</div>";
-      attachMessage(marker, content);
-      console.log("name => " + data[i].name + ", lat => " + data[i].location.lat + ", lng =>" + data[i].location.lng + ", media_cnt => " + medias[i].length);
+      attachMessage(marker, content, data[i].id);
     }
+*/
   }
 }
 
 // InfoWindowを表示する
-function attachMessage(marker, msg){
+function attachMessage(marker, msg, venue_id){
   google.maps.event.addListener(marker, "click", function(event){
     if (infoWindow) {
       infoWindow.close();
@@ -116,5 +112,18 @@ function attachMessage(marker, msg){
                       content: msg
                     });
     infoWindow.open(marker.getMap(), marker);
+    $("#insta_media").empty();
+    if (msg != "現在地") {
+      var content = "";
+      var medias = get_insta_media(venue_id);
+      if (!(!medias.length)) {
+        for (var media_cnt = 0; media_cnt < medias.length; media_cnt++) {
+          content += "<a href=\"" + medias[media_cnt].link + "\" target=\"_blank\"><img src=\"" + medias[media_cnt].images.thumbnail.url + "\"></a>";
+        }
+      } else {
+        content = "No Media";
+      }
+      $("#insta_media").append("<p>" + content + "</p>");
+    }
   });
 }

@@ -1,3 +1,16 @@
-<h1>Insta Signpost</h1>
-<!-- <div id="venues"></div> -->
-<div id="map_canvas" style="width:1024px; height:768px;"></div>
+<div class="row">
+  <div class="col-md-9">
+    <h1>Insta Signpost</h1>
+    <div id="map_canvas"></div>
+  </div>
+  <div class="col-md-3">
+    <h2>Instagram Media</h2>
+    <div id="insta_media"></div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    get_location();
+  });
+</script>
