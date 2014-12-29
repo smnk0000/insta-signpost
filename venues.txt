@@ -1,0 +1,814 @@
+id => 4d4b7104d754a06370d81259, name => 芸術 & 娯楽, pluralName => 芸術 & 娯楽, shortName => 芸術 & 娯楽
+  id => 4fceea171983d5d06c3e9823, name => 水族館, pluralName => 水族館, shortName => 水族館
+  id => 4bf58dd8d48988d1e1931735, name => ゲームセンター, pluralName => ゲームセンター, shortName => ゲームセンター
+  id => 4bf58dd8d48988d1e2931735, name => アートギャラリー, pluralName => アートギャラリー, shortName => アートギャラリー
+  id => 4bf58dd8d48988d1e4931735, name => ボウリング場, pluralName => ボウリング場, shortName => ボウリング場
+  id => 4bf58dd8d48988d17c941735, name => カジノ, pluralName => カジノ, shortName => カジノ
+  id => 52e81612bcbc57f1066b79e7, name => サーカス, pluralName => サーカス, shortName => サーカス
+  id => 4bf58dd8d48988d18e941735, name => 演芸場, pluralName => 演芸場, shortName => 演芸場
+  id => 5032792091d4c4b30a586d5c, name => コンサートホール, pluralName => コンサートホール, shortName => コンサートホール
+  id => 52e81612bcbc57f1066b79ef, name => カントリーダンスクラブ, pluralName => カントリーダンスクラブ, shortName => カントリーダンスクラブ
+  id => 52e81612bcbc57f1066b79e8, name => ディスクゴルフ, pluralName => ディスクゴルフコース, shortName => ディスクゴルフ
+  id => 4bf58dd8d48988d1f1931735, name => 娯楽全般, pluralName => 娯楽全般, shortName => エンターテインメント
+  id => 52e81612bcbc57f1066b79ea, name => ゴーカート トラック, pluralName => ゴーカート トラック, shortName => ゴーカート
+  id => 4deefb944765f83613cdba6e, name => 史跡, pluralName => 史跡, shortName => 史跡
+  id => 52e81612bcbc57f1066b79e6, name => レーザータグ, pluralName => レーザータグのスポット, shortName => レーザータグ
+  id => 52e81612bcbc57f1066b79eb, name => ミニゴルフ, pluralName => ミニゴルフコース, shortName => ミニゴルフ
+  id => 4bf58dd8d48988d17f941735, name => 映画館, pluralName => 映画館, shortName => 映画館
+    id => 4bf58dd8d48988d17e941735, name => 自主制作映画館, pluralName => 自主制作映画館, shortName => ミニシアター
+    id => 4bf58dd8d48988d180941735, name => 複合型映画館, pluralName => 複合型映画館, shortName => シネコン
+  id => 4bf58dd8d48988d181941735, name => 博物館, pluralName => 博物館, shortName => 博物館
+    id => 4bf58dd8d48988d18f941735, name => 美術館, pluralName => 美術館, shortName => 美術館
+    id => 4bf58dd8d48988d190941735, name => 歴史博物館, pluralName => 歴史博物館, shortName => 歴史博物館
+    id => 4bf58dd8d48988d192941735, name => プラネタリウム, pluralName => プラネタリウム, shortName => プラネタリウム
+    id => 4bf58dd8d48988d191941735, name => 科学博物館, pluralName => 科学博物館, shortName => 科学博物館
+  id => 4bf58dd8d48988d1e5931735, name => 音楽関係, pluralName => 音楽関係, shortName => 音楽関係
+    id => 4bf58dd8d48988d1e7931735, name => ジャズクラブ, pluralName => ジャズクラブ, shortName => ジャズクラブ
+    id => 4bf58dd8d48988d1e8931735, name => ピアノバー, pluralName => ピアノバー, shortName => ピアノバー
+    id => 4bf58dd8d48988d1e9931735, name => ライブハウス, pluralName => ライブハウス, shortName => ライブハウス
+  id => 52e81612bcbc57f1066b79ed, name => 野外彫刻, pluralName => 野外彫刻, shortName => 野外彫刻
+  id => 4bf58dd8d48988d1f2931735, name => 舞台芸術, pluralName => 舞台芸術, shortName => 舞台芸術
+    id => 4bf58dd8d48988d134941735, name => ダンススタジオ, pluralName => ダンススタジオ, shortName => ダンススタジオ
+    id => 4bf58dd8d48988d135941735, name => ミニシアター, pluralName => ミニシアター, shortName => ミニシアター
+    id => 4bf58dd8d48988d136941735, name => オペラハウス, pluralName => オペラハウス, shortName => オペラハウス
+    id => 4bf58dd8d48988d137941735, name => 劇場, pluralName => 劇場, shortName => 劇場
+  id => 4bf58dd8d48988d1e3931735, name => ビリヤード場, pluralName => ビリヤード場, shortName => ビリヤード
+  id => 507c8c4091d498d9fc8c67a9, name => パブリックアート, pluralName => パブリックアート, shortName => パブリックアート
+  id => 4bf58dd8d48988d1f4931735, name => レース場, pluralName => 各種レース場, shortName => レース場
+  id => 52e81612bcbc57f1066b79e9, name => ローラースケート場, pluralName => ローラースケート場, shortName => ローラースケート場
+  id => 52e81612bcbc57f1066b79ec, name => サルサクラブ, pluralName => サルサクラブ, shortName => サルサクラブ
+  id => 4bf58dd8d48988d184941735, name => 競技場, pluralName => 競技場, shortName => 競技場
+    id => 4bf58dd8d48988d18c941735, name => 野球場, pluralName => 野球場, shortName => 野球場
+    id => 4bf58dd8d48988d18b941735, name => バスケットボール競技場, pluralName => バスケットボール競技場, shortName => バスケットボール場
+    id => 4bf58dd8d48988d18a941735, name => クリケット場, pluralName => クリケット場, shortName => クリケット場
+    id => 4bf58dd8d48988d189941735, name => フットボール競技場, pluralName => フットボール競技場, shortName => フットボール場
+    id => 4bf58dd8d48988d185941735, name => ホッケー競技場, pluralName => ホッケー競技場, shortName => ホッケー場
+    id => 4bf58dd8d48988d188941735, name => サッカー競技場, pluralName => サッカー競技場, shortName => サッカー場
+    id => 4e39a891bd410d7aed40cbc2, name => テニス, pluralName => テニス競技場, shortName => テニス
+    id => 4bf58dd8d48988d187941735, name => 陸上競技場, pluralName => 陸上競技場, shortName => 陸上競技場
+  id => 52e81612bcbc57f1066b79ee, name => 路上芸術, pluralName => 路上芸術, shortName => 路上芸術
+  id => 4bf58dd8d48988d182941735, name => テーマパーク, pluralName => テーマパーク, shortName => テーマパーク
+    id => 5109983191d435c0d71c2bb1, name => テーマパークの乗り物/アトラクション, pluralName => テーマパークの乗り物/アトラクション, shortName => テーマパーク
+  id => 4bf58dd8d48988d193941735, name => ウォーターパーク, pluralName => ウォーターパーク, shortName => ウォーターパーク
+  id => 4bf58dd8d48988d17b941735, name => 動物園, pluralName => 動物園, shortName => 動物園
+id => 4d4b7105d754a06372d81259, name => カレッジ & 大学, pluralName => カレッジ & 大学, shortName => 大学 & 教育
+  id => 4bf58dd8d48988d198941735, name => 大学の学部棟, pluralName => 大学の学部棟, shortName => 学部棟
+    id => 4bf58dd8d48988d199941735, name => 大学の文学科棟, pluralName => 大学の文学科棟, shortName => 芸術
+    id => 4bf58dd8d48988d19a941735, name => 大学のコミュニケーション科棟, pluralName => 大学のコミュニケーション科棟, shortName => コミュニケーション科
+    id => 4bf58dd8d48988d19e941735, name => 大学の工学科棟, pluralName => 大学の工学科棟, shortName => 工学科
+    id => 4bf58dd8d48988d19d941735, name => 大学の史学科棟, pluralName => 大学の史学科棟, shortName => 履歴
+    id => 4bf58dd8d48988d19c941735, name => 大学の数学科棟, pluralName => 大学の数学科棟, shortName => 数学科
+    id => 4bf58dd8d48988d19b941735, name => 大学の理学科棟, pluralName => 大学の理学科棟, shortName => 理学科
+    id => 4bf58dd8d48988d19f941735, name => 大学の技術科棟, pluralName => 大学の技術科棟, shortName => 技術科
+  id => 4bf58dd8d48988d197941735, name => 大学の管理棟, pluralName => 大学の管理棟, shortName => 管理棟
+  id => 4bf58dd8d48988d1af941735, name => 大学の講堂, pluralName => 大学の講堂, shortName => 講堂
+  id => 4bf58dd8d48988d1b1941735, name => 大学の書店, pluralName => 大学の書店, shortName => 書店
+  id => 4bf58dd8d48988d1a1941735, name => 大学のカフェテリア, pluralName => 大学のカフェテリア, shortName => カフェテリア
+  id => 4bf58dd8d48988d1a0941735, name => 大学の教室, pluralName => 大学の教室, shortName => 教室
+  id => 4bf58dd8d48988d1b2941735, name => 大学のジム, pluralName => 大学のジム, shortName => ジム
+  id => 4bf58dd8d48988d1a5941735, name => 大学の研究室, pluralName => 大学の研究室, shortName => 研究室
+  id => 4bf58dd8d48988d1a7941735, name => 大学の図書館, pluralName => 大学の図書館, shortName => 図書館
+  id => 4bf58dd8d48988d1aa941735, name => 大学の共有スペース, pluralName => 大学の共有スペース, shortName => 共有
+  id => 4bf58dd8d48988d1a9941735, name => 大学のレクリエーション施設, pluralName => 大学のレクリエーション施設, shortName => レクリエーション施設（センター）
+  id => 4bf58dd8d48988d1a3941735, name => 大学の学生寮, pluralName => 大学の学生寮, shortName => 学生寮
+  id => 4bf58dd8d48988d1b4941735, name => 大学の競技場, pluralName => 大学の競技場, shortName => 競技場
+    id => 4bf58dd8d48988d1bb941735, name => 大学の野球場, pluralName => 大学の野球場, shortName => 野球場
+    id => 4bf58dd8d48988d1ba941735, name => 大学のバスケットボール場, pluralName => 大学のバスケットボール場, shortName => バスケットボール場
+    id => 4bf58dd8d48988d1b9941735, name => 大学のクリケット場, pluralName => 大学のクリケット場, shortName => クリケット場
+    id => 4bf58dd8d48988d1b8941735, name => 大学のフットボール場, pluralName => 大学のフットボール場, shortName => フットボール場
+    id => 4bf58dd8d48988d1b5941735, name => 大学のホッケーリンク, pluralName => 大学のホッケーリンク, shortName => ホッケー場
+    id => 4bf58dd8d48988d1b7941735, name => 大学のサッカー場, pluralName => 大学のサッカー場, shortName => サッカー場
+    id => 4e39a9cebd410d7aed40cbc4, name => 大学のテニスコート, pluralName => 大学のテニスコート, shortName => テニスコート
+    id => 4bf58dd8d48988d1b6941735, name => 大学の陸上競技場, pluralName => 大学の陸上競技場, shortName => 陸上競技場
+  id => 4bf58dd8d48988d1ac941735, name => 大学の劇場, pluralName => 大学の劇場, shortName => 劇場
+  id => 4bf58dd8d48988d1a2941735, name => コミュニティ・カレッジ, pluralName => コミュニティ・カレッジ, shortName => コミュニティ・カレッジ
+  id => 4bf58dd8d48988d1b0941735, name => 男子学生クラブ, pluralName => 男子学生クラブ, shortName => 学生会館
+  id => 4bf58dd8d48988d1a8941735, name => カレッジ & 大学全般, pluralName => カレッジ＆大学全般, shortName => 教育
+  id => 4bf58dd8d48988d1a6941735, name => 法科大学院, pluralName => 法科大学院, shortName => 法科大学院
+  id => 4bf58dd8d48988d1b3941735, name => 医科大学, pluralName => 医科大学, shortName => 医科大学
+  id => 4bf58dd8d48988d141941735, name => 女子学生クラブ, pluralName => 女子学生クラブ, shortName => 女子学生クラブ
+  id => 4bf58dd8d48988d1ab941735, name => 学生センター, pluralName => 学生センター, shortName => 学生センター
+  id => 4bf58dd8d48988d1ad941735, name => 専門学校, pluralName => 専門学校, shortName => 専門学校
+  id => 4bf58dd8d48988d1ae941735, name => 大学, pluralName => 大学, shortName => 大学
+id => 4d4b7105d754a06373d81259, name => イベント, pluralName => イベント, shortName => イベント
+  id => 5267e4d9e4b0ec79466e48c6, name => 会議, pluralName => 会議, shortName => 会議
+  id => 5267e4d9e4b0ec79466e48c9, name => コンベンション, pluralName => コンベンション, shortName => コンベンション
+  id => 5267e4d9e4b0ec79466e48c7, name => フェスティバル, pluralName => フェスティバル, shortName => フェスティバル
+  id => 5267e4d9e4b0ec79466e48d1, name => ミュージックフェスティバル, pluralName => ミュージックフェスティバル, shortName => ミュージックフェスティバル
+  id => 5267e4d9e4b0ec79466e48c8, name => その他のイベント, pluralName => その他のイベント, shortName => その他のイベント
+  id => 52741d85e4b0d5d1e3c6a6d9, name => パレード, pluralName => パレード, shortName => パレード
+  id => 52f2ab2ebcbc57f1066b8b54, name => ガレージセール, pluralName => ガレージセール, shortName => ガレージセール
+  id => 5267e4d8e4b0ec79466e48c5, name => ストリートフェア, pluralName => ストリートフェア, shortName => フェア / 催し物
+id => 4d4b7105d754a06374d81259, name => 飲食店, pluralName => 飲食店, shortName => 飲食店
+  id => 503288ae91d4c4b30a586d67, name => アフガニスタン料理店, pluralName => アフガニスタン料理店, shortName => アフガニスタン料理
+  id => 4bf58dd8d48988d1c8941735, name => アフリカ料理店, pluralName => アフリカ料理店, shortName => アフリカ料理
+  id => 4bf58dd8d48988d14e941735, name => アメリカ料理店, pluralName => アメリカ料理店, shortName => アメリカ料理
+  id => 4bf58dd8d48988d152941735, name => ベネズエラ料理店, pluralName => ベネズエラ料理店, shortName => ベネズエラ料理
+  id => 4bf58dd8d48988d107941735, name => アルゼンチン料理店, pluralName => アルゼンチン料理店, shortName => アルゼンチン料理
+  id => 4bf58dd8d48988d142941735, name => アジア料理店, pluralName => アジア料理店, shortName => アジア料理
+  id => 4bf58dd8d48988d169941735, name => オーストラリア料理店, pluralName => オーストラリア料理店, shortName => オーストラリア料理
+  id => 52e81612bcbc57f1066b7a01, name => オーストリア料理店, pluralName => オーストリア料理店, shortName => オーストリア料理
+  id => 4bf58dd8d48988d1df931735, name => 焼肉 / バーベキュー料理店, pluralName => 焼肉 / バーベキュー料理店, shortName => 焼肉 / バーベキュー
+  id => 4bf58dd8d48988d179941735, name => ベーグルショップ, pluralName => ベーグルショップ, shortName => ベーグル
+  id => 4bf58dd8d48988d16a941735, name => パン屋, pluralName => パン屋, shortName => パン屋
+  id => 52e928d0bcbc57f1066b7e97, name => ベラルーシ料理店, pluralName => ベラルーシ料理店, shortName => ベラルーシ料理
+  id => 52e81612bcbc57f1066b7a02, name => ベルギー料理店, pluralName => ベルギー料理店, shortName => ベルギー料理
+  id => 52e81612bcbc57f1066b79f1, name => ビストロ, pluralName => ビストロ, shortName => ビストロ
+  id => 4bf58dd8d48988d16b941735, name => ブラジル料理店, pluralName => ブラジル料理店, shortName => ブラジル料理
+    id => 5294c7523cf9994f4e043a62, name => Acai House, pluralName => Acai Houses, shortName => Acai
+    id => 52939ae13cf9994f4e043a3b, name => バイアーノ料理店, pluralName => バイアーノ料理店, shortName => バイアーノ
+    id => 52939a9e3cf9994f4e043a36, name => 中央ブラジル料理店, pluralName => 中央ブラジル料理店, shortName => 中央ブラジル料理
+    id => 52939a643cf9994f4e043a33, name => Churrascaria, pluralName => Churrascarias, shortName => Churrascaria
+    id => 5294c55c3cf9994f4e043a61, name => Empada House, pluralName => Empada Houses, shortName => Empadas
+    id => 52939af83cf9994f4e043a3d, name => ゴイアーノ料理店, pluralName => ゴイアーノ料理店, shortName => ゴイアーノ
+    id => 52939aed3cf9994f4e043a3c, name => ミネイロ料理店, pluralName => ミネイロ料理店, shortName => ミネイロ
+    id => 52939aae3cf9994f4e043a37, name => 東北ブラジル料理店, pluralName => 東北ブラジル料理店, shortName => 東北ブラジル料理
+    id => 52939ab93cf9994f4e043a38, name => 北ブラジル料理店, pluralName => 北ブラジル料理店, shortName => 北ブラジル料理
+    id => 5294cbda3cf9994f4e043a63, name => Pastelaria, pluralName => Pastelarias, shortName => Pastelaria
+    id => 52939ac53cf9994f4e043a39, name => 南東ブラジル料理店, pluralName => 南東ブラジル料理店, shortName => 南東ブラジル料理
+    id => 52939ad03cf9994f4e043a3a, name => 南ブラジル料理店, pluralName => 南ブラジル料理店, shortName => 南ブラジル料理
+    id => 52939a7d3cf9994f4e043a34, name => Tapiocaria, pluralName => Tapiocarias, shortName => Tapiocaria
+  id => 4bf58dd8d48988d143941735, name => 朝食スポット, pluralName => 朝食スポット, shortName => 朝食
+  id => 52e81612bcbc57f1066b7a0c, name => タピオカティー店, pluralName => タピオカティー店, shortName => タピオカティー
+  id => 52e81612bcbc57f1066b79f4, name => ビュッフェ, pluralName => ビュッフェ, shortName => ビュッフェ
+  id => 4bf58dd8d48988d16c941735, name => ハンバーガーレストラン, pluralName => ハンバーガーレストラン, shortName => ハンバーガー
+  id => 4bf58dd8d48988d153941735, name => ブリトー店, pluralName => ブリート店, shortName => ブリトー
+  id => 4bf58dd8d48988d128941735, name => カフェテリア, pluralName => カフェテリア, shortName => カフェテリア
+  id => 4bf58dd8d48988d16d941735, name => カフェ, pluralName => カフェ, shortName => カフェ
+  id => 4bf58dd8d48988d17a941735, name => ケイジャン / クレオール料理店, pluralName => ケイジャン / クレオール料理店, shortName => ケイジャン / クレオール料理
+  id => 52e81612bcbc57f1066b7a03, name => カンボジア料理店, pluralName => カンボジア料理店, shortName => カンボジア料理
+  id => 4bf58dd8d48988d144941735, name => カリブ料理店, pluralName => カリブ料理店, shortName => カリブ料理
+  id => 5293a7d53cf9994f4e043a45, name => コーカサス料理店, pluralName => コーカサス料理店, shortName => コーカサス料理
+  id => 4bf58dd8d48988d145941735, name => 中華料理店, pluralName => 中華料理店, shortName => 中華料理
+    id => 52af3a5e3cf9994f4e043bea, name => 安徽料理店, pluralName => 安徽料理店, shortName => 安徽料理
+    id => 52af3a723cf9994f4e043bec, name => 北京料理店, pluralName => 北京料理店, shortName => 北京料理
+    id => 52af3a7c3cf9994f4e043bed, name => 広東料理店, pluralName => 広東料理店, shortName => 広東料理
+    id => 52af3a673cf9994f4e043beb, name => 中国宮廷料理店, pluralName => 中国宮廷料理店, shortName => 中国宮廷料理
+    id => 52af3a903cf9994f4e043bee, name => 中華風朝食店, pluralName => 中華風朝食店, shortName => 中華風朝食
+    id => 52af3a9f3cf9994f4e043bef, name => 中国東北料理店, pluralName => 中国東北料理店, shortName => 中国東北料理
+    id => 52af3aaa3cf9994f4e043bf0, name => 福建料理店, pluralName => 福建料理店, shortName => 福建料理
+    id => 52af3ab53cf9994f4e043bf1, name => 貴州料理店, pluralName => 貴州料理店, shortName => 貴州料理
+    id => 52af3abe3cf9994f4e043bf2, name => 海南料理店, pluralName => 海南料理店, shortName => 海南料理
+    id => 52af3ac83cf9994f4e043bf3, name => 客家料理店, pluralName => 客家料理店, shortName => 客家料理
+    id => 52af3ad23cf9994f4e043bf4, name => 河南料理店, pluralName => 河南料理店, shortName => 河南料理
+    id => 52af3add3cf9994f4e043bf5, name => 香港料理店, pluralName => 香港料理店, shortName => 香港料理
+    id => 52af3af23cf9994f4e043bf7, name => 淮揚料理店, pluralName => 淮揚料理店, shortName => 淮揚料理
+    id => 52af3ae63cf9994f4e043bf6, name => 湖北料理店, pluralName => 湖北料理店, shortName => 湖北料理
+    id => 52af3afc3cf9994f4e043bf8, name => 湖南料理店, pluralName => 湖南料理店, shortName => 湖南料理
+    id => 52af3b053cf9994f4e043bf9, name => 皇帝料理店, pluralName => 皇帝料理店, shortName => 皇帝料理
+    id => 52af3b213cf9994f4e043bfa, name => 江蘇料理店, pluralName => 江蘇料理店, shortName => 江蘇料理
+    id => 52af3b293cf9994f4e043bfb, name => 江西料理店, pluralName => 江西料理店, shortName => 江西料理
+    id => 52af3b343cf9994f4e043bfc, name => マカオ料理店, pluralName => マカオ料理店, shortName => マカオ料理
+    id => 52af3b3b3cf9994f4e043bfd, name => 満州料理店, pluralName => 満州料理店, shortName => 満州料理
+    id => 52af3b463cf9994f4e043bfe, name => 北京ダック料理店, pluralName => 北京ダック料理店, shortName => 北京ダック
+    id => 52af3b633cf9994f4e043c01, name => 陝西料理店, pluralName => 陝西料理店, shortName => 陝西料理
+    id => 52af3b513cf9994f4e043bff, name => 山東料理店, pluralName => 山東料理店, shortName => 山東料理
+    id => 52af3b593cf9994f4e043c00, name => 上海料理店, pluralName => 上海料理店, shortName => 上海料理
+    id => 52af3b6e3cf9994f4e043c02, name => 山西料理店, pluralName => 山西料理店, shortName => 山西料理
+    id => 52af3b773cf9994f4e043c03, name => 四川料理店, pluralName => 四川料理店, shortName => 四川料理
+    id => 52af3b813cf9994f4e043c04, name => 台湾料理店, pluralName => 台湾料理店, shortName => 台湾料理
+    id => 52af3b893cf9994f4e043c05, name => 天津料理店, pluralName => 天津料理店, shortName => 天津料理
+    id => 52af3b913cf9994f4e043c06, name => 新疆料理店, pluralName => 新疆料理店, shortName => 新疆料理
+    id => 52af3b9a3cf9994f4e043c07, name => 雲南料理店, pluralName => 雲南料理店, shortName => 雲南料理
+    id => 52af3ba23cf9994f4e043c08, name => 浙江料理店, pluralName => 浙江料理店, shortName => 浙江料理
+  id => 4bf58dd8d48988d1e0931735, name => コーヒーショップ, pluralName => コーヒーショップ, shortName => コーヒーショップ
+  id => 52e81612bcbc57f1066b7a00, name => 伝統料理店, pluralName => 伝統料理店, shortName => 伝統料理
+  id => 52e81612bcbc57f1066b79f2, name => クレープ屋, pluralName => クレープ屋, shortName => クレープ屋
+  id => 4bf58dd8d48988d154941735, name => キューバ料理店, pluralName => キューバ料理店, shortName => キューバ料理
+  id => 4bf58dd8d48988d1bc941735, name => カップケーキ専門店, pluralName => カップケーキ専門店, shortName => カップケーキ
+  id => 52f2ae52bcbc57f1066b8b81, name => チェコ料理店, pluralName => チェコ料理店, shortName => チェコ
+  id => 4bf58dd8d48988d146941735, name => 惣菜 / 弁当, pluralName => 惣菜 / 弁当屋, shortName => 惣菜 / 弁当
+  id => 4bf58dd8d48988d1d0941735, name => デザートショップ, pluralName => デザートショップ, shortName => デザート
+  id => 4bf58dd8d48988d1f5931735, name => 飲茶・点心レストラン, pluralName => 飲茶・点心レストラン, shortName => 飲茶店
+  id => 4bf58dd8d48988d147941735, name => 定食屋, pluralName => 定食屋, shortName => 定食屋
+  id => 4e0e22f5a56208c4ea9a85a0, name => 蒸留所, pluralName => 蒸留所, shortName => 蒸留所
+  id => 4bf58dd8d48988d148941735, name => ドーナツ店, pluralName => ドーナツ店, shortName => ドーナツ
+  id => 4bf58dd8d48988d108941735, name => 餃子レストラン, pluralName => 餃子レストラン, shortName => 餃子
+  id => 4bf58dd8d48988d109941735, name => 東ヨーロッパ料理店, pluralName => 東ヨーロッパ料理店, shortName => 東ヨーロッパ料理
+  id => 52e81612bcbc57f1066b7a05, name => イギリス料理店, pluralName => イギリス料理店, shortName => イギリス料理
+  id => 4bf58dd8d48988d10a941735, name => エチオピア料理店, pluralName => エチオピア料理店, shortName => エチオピア料理
+  id => 4bf58dd8d48988d10b941735, name => ファラフェルレストラン, pluralName => ファラフェルレストラン, shortName => ファラフェル
+  id => 4bf58dd8d48988d16e941735, name => ファーストフード店, pluralName => ファーストフード店, shortName => ファーストフード
+  id => 4eb1bd1c3b7b55596b4a748f, name => フィリピン料理店, pluralName => フィリピン料理店, shortName => フィリピン料理
+  id => 4edd64a0c7ddd24ca188df1a, name => フィッシュ & チップス店, pluralName => フィッシュ & チップス店, shortName => フィッシュ & チップス
+  id => 52e81612bcbc57f1066b7a09, name => フォンデュ料理店, pluralName => フォンデュ料理店, shortName => フォンデュ
+  id => 4bf58dd8d48988d1cb941735, name => 屋台, pluralName => 屋台, shortName => 屋台
+  id => 4bf58dd8d48988d10c941735, name => フランス料理店, pluralName => フランス料理店, shortName => フランス料理
+  id => 4d4ae6fc7a7b7dea34424761, name => フライドチキン店, pluralName => フライドチキン店, shortName => フライドチキン
+  id => 4bf58dd8d48988d155941735, name => ガストロパブ, pluralName => ガストロパブ, shortName => ガストロパブ
+  id => 4bf58dd8d48988d10d941735, name => ドイツ料理店, pluralName => ドイツ料理店, shortName => German
+  id => 4c2cd86ed066bed06c3c5209, name => 無グルテン食レストラン, pluralName => 無グルテン食レストラン, shortName => 無グルテン食
+  id => 4bf58dd8d48988d10e941735, name => ギリシャ料理店, pluralName => ギリシャ料理店, shortName => ギリシャ料理
+    id => 53d6c1b0e4b02351e88a83e8, name => ブガッツァ店, pluralName => ブガッツァ店, shortName => ブガッツァ店
+    id => 53d6c1b0e4b02351e88a83e2, name => クレタ料理店, pluralName => クレタ料理店, shortName => クレタ料理店
+    id => 53d6c1b0e4b02351e88a83d8, name => 魚のタベルナ, pluralName => 魚のタベルナ, shortName => 魚のタベルナ
+    id => 53d6c1b0e4b02351e88a83d6, name => グリル肉料理店, pluralName => グリル肉料理店, shortName => グリル肉料理店
+    id => 53d6c1b0e4b02351e88a83e6, name => カフェニオ, pluralName => カフェニオ, shortName => カフェニア
+    id => 53d6c1b0e4b02351e88a83e4, name => マジリオ, pluralName => Magiria, shortName => マジリオ
+    id => 53d6c1b0e4b02351e88a83da, name => メゼ料理店, pluralName => メゼ料理店, shortName => メゼ料理店
+    id => 53d6c1b0e4b02351e88a83d4, name => モダンギリシャ料理店, pluralName => モダンギリシャ料理店, shortName => モダンギリシャ料理店
+    id => 53d6c1b0e4b02351e88a83dc, name => ウゼリ, pluralName => ウゼリ, shortName => ウゼリ
+    id => 53d6c1b0e4b02351e88a83e0, name => Patsa Restaurant, pluralName => Patsa Restaurant, shortName => パツァス料理店
+    id => 53d6c1b0e4b02351e88a83d2, name => タベルナ, pluralName => タベルナ, shortName => タベルナ
+    id => 53d6c1b0e4b02351e88a83de, name => ツィパウロ料理店, pluralName => ツィパウロ料理店, shortName => ツィパウロ料理店
+  id => 52e81612bcbc57f1066b79ff, name => ハラール料理店, pluralName => ハラール料理店, shortName => ハラール
+  id => 52e81612bcbc57f1066b79fe, name => ハワイ料理店, pluralName => ハワイ料理店, shortName => ハワイ料理
+  id => 52e81612bcbc57f1066b79fb, name => ヒマラヤ料理店, pluralName => ヒマラヤ料理店, shortName => ヒマラヤ料理
+  id => 4bf58dd8d48988d16f941735, name => ホットドッグ店, pluralName => ホットドッグ店, shortName => ホットドッグ
+  id => 52af0bd33cf9994f4e043bdd, name => 火鍋料理店, pluralName => 火鍋料理店, shortName => 火鍋料理
+  id => 52e81612bcbc57f1066b79fa, name => ハンガリー料理店, pluralName => ハンガリー料理店, shortName => ハンガリー料理
+  id => 4bf58dd8d48988d1c9941735, name => アイスクリームショップ, pluralName => アイスクリームショップ, shortName => アイスクリーム
+  id => 4bf58dd8d48988d10f941735, name => インド料理店, pluralName => インド料理店, shortName => インド料理
+    id => 54135bf5e4b08f3d2429dfe5, name => アンドラ料理店, pluralName => アンドラ料理店, shortName => アンドラ
+    id => 54135bf5e4b08f3d2429dff3, name => アワディ料理店, pluralName => アワディ料理店, shortName => アワディ
+    id => 54135bf5e4b08f3d2429dff5, name => ベンガル料理店, pluralName => ベンガル料理店, shortName => ベンガル料理
+    id => 54135bf5e4b08f3d2429dfe2, name => チャートが食べられるスポット, pluralName => チャートが食べられるスポット, shortName => チャート
+    id => 54135bf5e4b08f3d2429dff2, name => チェティナドゥ料理店, pluralName => チェティナドゥ料理店, shortName => チェティナドゥ
+    id => 54135bf5e4b08f3d2429dfe1, name => ダーバ, pluralName => ダーバ, shortName => ダーバ
+    id => 54135bf5e4b08f3d2429dfe3, name => ドーサが食べられるスポット, pluralName => ドーサが食べられるスポット, shortName => ドーサ
+    id => 54135bf5e4b08f3d2429dfe8, name => ゴア料理店, pluralName => ゴア料理店, shortName => ゴア料理
+    id => 54135bf5e4b08f3d2429dfe9, name => グジャラート料理店, pluralName => グジャラート料理店, shortName => グジャラート料理
+    id => 54135bf5e4b08f3d2429dfe6, name => ハイデラバード料理店, pluralName => ハイデラバード料理店, shortName => ハイデラバード料理
+    id => 54135bf5e4b08f3d2429dfdf, name => インド系中華料理店, pluralName => インド系中華料理店, shortName => インド系中華料理
+    id => 54135bf5e4b08f3d2429dfe7, name => イラン系カフェ, pluralName => イラン系カフェ, shortName => イラン系
+    id => 54135bf5e4b08f3d2429dfea, name => ジャイナ料理店, pluralName => ジャイナ料理店, shortName => ジャイナ料理
+    id => 54135bf5e4b08f3d2429dfeb, name => カルナータカ料理店, pluralName => カルナータカ料理店, shortName => カルナータカ料理
+    id => 54135bf5e4b08f3d2429dfed, name => ケララ料理店, pluralName => ケララ料理店, shortName => ケララ料理
+    id => 54135bf5e4b08f3d2429dfee, name => マハーラーシュトラ料理店, pluralName => マハーラーシュトラ料理店, shortName => マハーラーシュトラ料理
+    id => 54135bf5e4b08f3d2429dff4, name => ムグライ料理店, pluralName => ムグライ料理店, shortName => ムグライ料理
+    id => 54135bf5e4b08f3d2429dfe0, name => 多系統インド料理店, pluralName => 多系統インド料理店, shortName => 多系統インド料理
+    id => 54135bf5e4b08f3d2429dfdd, name => 北部インド料理, pluralName => 北部インド料理, shortName => 北部インド
+    id => 54135bf5e4b08f3d2429dff6, name => 北東インド料理店, pluralName => 北東インド料理店, shortName => 北東インド料理
+    id => 54135bf5e4b08f3d2429dfef, name => パーシ料理店, pluralName => パーシ料理店, shortName => パーシ料理
+    id => 54135bf5e4b08f3d2429dff0, name => パンジャブ料理店, pluralName => パンジャブ料理店, shortName => パンジャブ
+    id => 54135bf5e4b08f3d2429dff1, name => ラージャスターン料理店, pluralName => ラージャスターン料理店, shortName => ラージャスターン
+    id => 54135bf5e4b08f3d2429dfde, name => 南部インド料理店, pluralName => 南部インド料理店, shortName => 南部インド
+    id => 54135bf5e4b08f3d2429dfe4, name => スイーツショップ, pluralName => スイーツショップ, shortName => スイーツ
+    id => 54135bf5e4b08f3d2429dfec, name => ウドピ料理店, pluralName => ウドピ料理店, shortName => ウドピ料理
+  id => 4deefc054765f83613cdba6f, name => インドネシア料理店, pluralName => インドネシア料理店, shortName => インドネシア料理
+    id => 52960eda3cf9994f4e043ac9, name => Acehnese Restaurant, pluralName => Acehnese Restaurants, shortName => Acehnese
+    id => 52960eda3cf9994f4e043acb, name => Balinese Restaurant, pluralName => Balinese Restaurants, shortName => Balinese
+    id => 52960eda3cf9994f4e043aca, name => Betawinese Restaurant, pluralName => Betawinese Restaurants, shortName => Betawinese
+    id => 52960eda3cf9994f4e043ac7, name => Javanese Restaurant, pluralName => Javanese Restaurants, shortName => Javanese
+    id => 52960eda3cf9994f4e043ac8, name => Manadonese Restaurant, pluralName => Manadonese Restaurants, shortName => Manadonese
+    id => 52960eda3cf9994f4e043acc, name => Meatball Place, pluralName => Meatball Places, shortName => Meatball Place
+    id => 52960eda3cf9994f4e043ac5, name => Padangnese Restaurant, pluralName => Padangnese Restaurants, shortName => Padangnese
+    id => 52960eda3cf9994f4e043ac6, name => Sundanese Restaurant, pluralName => Sundanese Restaurants, shortName => Sundanese
+  id => 52e81612bcbc57f1066b7a06, name => アイリッシュパブ, pluralName => アイリッシュパブ, shortName => アイルランド料理店
+  id => 4bf58dd8d48988d110941735, name => イタリア料理店, pluralName => イタリア料理店, shortName => イタリア料理
+  id => 4bf58dd8d48988d111941735, name => 和食店, pluralName => 和食店, shortName => 和食
+  id => 52e81612bcbc57f1066b79fd, name => ユダヤ料理店, pluralName => ユダヤ料理店, shortName => ユダヤ料理
+  id => 4bf58dd8d48988d112941735, name => ジューススタンド, pluralName => ジューススタンド, shortName => ジューススタンド
+  id => 4bf58dd8d48988d113941735, name => 韓国料理店, pluralName => 韓国料理店, shortName => 韓国料理
+  id => 52e81612bcbc57f1066b79fc, name => コー​​シャ料理店, pluralName => コー​​シャ料理店, shortName => コー​​シャ
+  id => 4bf58dd8d48988d1be941735, name => ラテンアメリカ料理店, pluralName => ラテンアメリカ料理店, shortName => ラテンアメリカ料理
+    id => 52939a8c3cf9994f4e043a35, name => エンパナーダ料理店, pluralName => エンパナーダ料理店, shortName => エンパナーダ
+  id => 4bf58dd8d48988d1bf941735, name => マカロニチーズ料理店, pluralName => マカロニ & チーズ店, shortName => マカロニチーズ
+  id => 4bf58dd8d48988d156941735, name => マレーシア料理店, pluralName => マレーシア料理店, shortName => マレーシア料理
+  id => 4bf58dd8d48988d1c0941735, name => 地中海料理店, pluralName => 地中海料理店, shortName => 地中海料理
+  id => 4bf58dd8d48988d1c1941735, name => メキシコ料理店, pluralName => メキシコ料理店, shortName => メキシコ料理
+  id => 4bf58dd8d48988d115941735, name => 中東料理店, pluralName => 中東料理店, shortName => 中東料理
+  id => 52e81612bcbc57f1066b79f9, name => モダンヨーロッパ料理店, pluralName => モダンヨーロッパ料理店, shortName => モダンヨーロッパ料理
+  id => 4bf58dd8d48988d1c2941735, name => 分子ガストロノミーレストラン, pluralName => 分子ガストロノミーレストラン, shortName => 分子ガストロノミー
+  id => 4eb1d5724b900d56c88a45fe, name => モンゴル料理店, pluralName => モンゴル料理店, shortName => モンゴル料理
+  id => 4bf58dd8d48988d1c3941735, name => モロッコ料理店, pluralName => モロッコ料理店, shortName => モロッコ料理
+  id => 4bf58dd8d48988d157941735, name => ニューアメリカ料理店, pluralName => ニューアメリカ料理店, shortName => ニューアメリカ料理
+  id => 52e81612bcbc57f1066b79f8, name => パキスタン料理店, pluralName => パキスタン料理店, shortName => パキスタン料理
+  id => 52e81612bcbc57f1066b79f7, name => ペルシャ料理店, pluralName => ペルシャ料理店, shortName => ペルシャ料理
+  id => 4eb1bfa43b7b52c0e1adc2e8, name => ペルー料理店, pluralName => ペルー料理店, shortName => ペルー料理
+  id => 52e81612bcbc57f1066b7a0a, name => パイショップ, pluralName => パイショップ, shortName => パイショップ
+  id => 4bf58dd8d48988d1ca941735, name => ピザハウス, pluralName => ピザハウス, shortName => ピザ
+  id => 52e81612bcbc57f1066b7a04, name => ポーランド料理店, pluralName => ポーランド料理店, shortName => ポーランド料理
+  id => 4def73e84765ae376e57713a, name => ポルトガル料理店, pluralName => ポルトガル料理店, shortName => ポルトガル料理
+  id => 4bf58dd8d48988d1d1941735, name => ラーメン / 麺類店, pluralName => ラーメン / 麺類店, shortName => ラーメン / 麺類
+  id => 4bf58dd8d48988d1c4941735, name => レストラン, pluralName => レストラン, shortName => レストラン
+  id => 52960bac3cf9994f4e043ac4, name => ルーマニア料理店, pluralName => ルーマニア料理店, shortName => ルーマニア料理
+  id => 5293a7563cf9994f4e043a44, name => ロシア料理店, pluralName => ロシア料理店, shortName => ロシア料理
+    id => 52e928d0bcbc57f1066b7e9d, name => ブリヌイ店, pluralName => ブリヌイ店, shortName => ブリヌイ
+    id => 52e928d0bcbc57f1066b7e9c, name => ペリメニ店, pluralName => ペリメニ店, shortName => ペリメニ
+  id => 4bf58dd8d48988d1bd941735, name => サラダショップ, pluralName => サラダショップ, shortName => サラダ
+  id => 4bf58dd8d48988d1c5941735, name => サンドイッチ店, pluralName => サンドイッチ店, shortName => サンドイッチ
+  id => 4bf58dd8d48988d1c6941735, name => スカンジナビア料理店, pluralName => スカンジナビア料理店, shortName => スカンジナビア料理
+  id => 4bf58dd8d48988d1ce941735, name => シーフードレストラン, pluralName => シーフードレストラン, shortName => シーフード
+  id => 4bf58dd8d48988d1c7941735, name => 軽食店, pluralName => 軽食店, shortName => 軽食
+  id => 4bf58dd8d48988d1dd931735, name => スープ店, pluralName => スープ店, shortName => スープ
+  id => 4bf58dd8d48988d1cd941735, name => 南米料理店, pluralName => 南米料理店, shortName => 南米料理
+  id => 4bf58dd8d48988d14f941735, name => 南部料理 / ソウルフードレストラン, pluralName => 南部料理 / ソウルフードレストラン, shortName => 南部料理
+  id => 52e81612bcbc57f1066b79f3, name => スブラキ店, pluralName => スブラキ店, shortName => スブラキ
+  id => 4bf58dd8d48988d150941735, name => スペイン料理店, pluralName => スペイン料理店, shortName => スペイン料理
+    id => 4bf58dd8d48988d14d941735, name => パエリヤレストラン, pluralName => パエリヤレストラン, shortName => パエリヤ
+  id => 5413605de4b0ae91d18581a9, name => スリランカ料理店, pluralName => スリランカ料理店, shortName => スリランカ料理
+  id => 4bf58dd8d48988d1cc941735, name => ステーキハウス, pluralName => ステーキハウス, shortName => ステーキハウス
+  id => 4bf58dd8d48988d1d2941735, name => 寿司屋, pluralName => 寿司屋, shortName => 寿司
+  id => 4bf58dd8d48988d158941735, name => スイス料理店, pluralName => スイス料理店, shortName => スイス料理
+  id => 4bf58dd8d48988d151941735, name => タコス店, pluralName => タコス店, shortName => タコス
+  id => 4bf58dd8d48988d1db931735, name => タパスレストラン, pluralName => タパスレストラン, shortName => タパス
+  id => 52e928d0bcbc57f1066b7e98, name => タタール料理店, pluralName => Tatar Restaurants, shortName => Tatar
+  id => 4bf58dd8d48988d1dc931735, name => 喫茶店, pluralName => 喫茶店, shortName => 喫茶店
+  id => 4bf58dd8d48988d149941735, name => タイ料理店, pluralName => タイ料理店, shortName => タイ料理
+  id => 52af39fb3cf9994f4e043be9, name => チベット料理店, pluralName => チベット料理店, shortName => チベット料理
+  id => 4f04af1f2fb6e1c99f3db0bb, name => トルコ料理店, pluralName => トルコ料理店, shortName => トルコ料理
+    id => 530faca9bcbc57f1066bc2f3, name => Borek Place, pluralName => Borek Places, shortName => Borek
+    id => 530faca9bcbc57f1066bc2f4, name => Cigkofte Place, pluralName => Cigkofte Places, shortName => Cigkofte
+    id => 5283c7b4e4b094cb91ec88d8, name => ドネル料理店, pluralName => ドネル料理店, shortName => ドネル
+    id => 5283c7b4e4b094cb91ec88d9, name => ギョズレメ料理店, pluralName => ギョズレメ店, shortName => ギョズレメ店
+    id => 5283c7b4e4b094cb91ec88d4, name => 家庭料理レストラン, pluralName => 家庭料理レストラン, shortName => 家庭料理
+    id => 5283c7b4e4b094cb91ec88d7, name => ケバブ料理店, pluralName => ケバブ料理店, shortName => ケバブ
+    id => 5283c7b4e4b094cb91ec88db, name => キョフテ店, pluralName => キョフテ店, shortName => キョフテ
+    id => 5283c7b4e4b094cb91ec88d6, name => ココレチ料理店, pluralName => ココレチ料理店, shortName => ココレチ
+    id => 5283c7b4e4b094cb91ec88d5, name => マンティ店, pluralName => マンティ店, shortName => マンティ
+    id => 5283c7b4e4b094cb91ec88da, name => メイハネ, pluralName => メイハネ, shortName => メイハネ
+    id => 530faca9bcbc57f1066bc2f2, name => Pide Place, pluralName => Pide Places, shortName => Pide
+  id => 52e928d0bcbc57f1066b7e96, name => ウクライナ料理店, pluralName => ウクライナ料理店, shortName => ウクライナ
+    id => 52e928d0bcbc57f1066b7e9a, name => Varenyky restaurant, pluralName => Varenyky restaurants, shortName => Varenyky
+    id => 52e928d0bcbc57f1066b7e9b, name => 西ウクライナ料理店, pluralName => 西ウクライナ料理店, shortName => 西ウクライナ
+  id => 4bf58dd8d48988d1d3941735, name => ベジタリアン / ビーガン料理レストラン, pluralName => ベジタリアン / ビーガン料理レストラン, shortName => ベジタリアン / ベーガン
+  id => 4bf58dd8d48988d14a941735, name => ベトナム料理店, pluralName => ベトナム料理店, shortName => ベトナム料理
+  id => 4bf58dd8d48988d14b941735, name => ワイナリー, pluralName => ワイナリー, shortName => ワイナリー
+  id => 4bf58dd8d48988d14c941735, name => 手羽唐揚店, pluralName => 手羽唐揚店, shortName => 手羽唐揚
+  id => 512e7cae91d4cbb4e5efe0af, name => フローズンヨーグルト, pluralName => ヨーグルト, shortName => フローズンヨーグルト
+id => 4d4b7105d754a06376d81259, name => 夜の娯楽スポット, pluralName => 夜の娯楽スポット, shortName => ナイトライフ
+  id => 4bf58dd8d48988d116941735, name => バー, pluralName => バー, shortName => バー
+  id => 52e81612bcbc57f1066b7a0d, name => ビーチバー, pluralName => ビーチバー, shortName => ビーチバー
+  id => 4bf58dd8d48988d117941735, name => ビアガーデン, pluralName => ビアガーデン, shortName => ビアガーデン
+  id => 50327c8591d4c4b30a586d5d, name => 醸造所, pluralName => 醸造所, shortName => 醸造所
+  id => 52e81612bcbc57f1066b7a0e, name => シャンパンバー, pluralName => シャンパンバー, shortName => シャンパンバー
+  id => 4bf58dd8d48988d11e941735, name => カクテルバー, pluralName => カクテルバー, shortName => カクテル
+  id => 4bf58dd8d48988d118941735, name => ダイブバー, pluralName => ダイブバー, shortName => ダイブバー
+  id => 4bf58dd8d48988d1d8941735, name => ゲイバー, pluralName => ゲイバー, shortName => ゲイバー
+  id => 4bf58dd8d48988d119941735, name => フーカバー, pluralName => フーカバー, shortName => フーカバー
+  id => 4bf58dd8d48988d1d5941735, name => ホテルのバー, pluralName => ホテルのバー, shortName => ホテルのバー
+  id => 4bf58dd8d48988d120941735, name => カラオケバー, pluralName => カラオケバー, shortName => カラオケ
+  id => 4bf58dd8d48988d121941735, name => ラウンジ, pluralName => ラウンジ, shortName => ラウンジ
+  id => 53e510b7498ebcb1801b55d4, name => 深夜スーパー, pluralName => 深夜スーパー, shortName => 深夜スーパー
+  id => 4bf58dd8d48988d11f941735, name => ナイトクラブ, pluralName => ナイトクラブ, shortName => ナイトクラブ
+  id => 4bf58dd8d48988d11a941735, name => その他の夜の娯楽, pluralName => その他の夜の娯楽, shortName => ナイトライフ
+  id => 4bf58dd8d48988d11b941735, name => パブ, pluralName => パブ, shortName => パブ
+  id => 4bf58dd8d48988d11c941735, name => 居酒屋, pluralName => 居酒屋, shortName => 居酒屋
+  id => 4bf58dd8d48988d1d4941735, name => もぐり酒場, pluralName => もぐり酒場, shortName => もぐり酒場
+  id => 4bf58dd8d48988d11d941735, name => スポーツバー, pluralName => スポーツバー, shortName => スポーツバー
+  id => 4bf58dd8d48988d1d6941735, name => ストリップクラブ, pluralName => ストリップクラブ, shortName => ストリップクラブ
+  id => 4bf58dd8d48988d122941735, name => ウィスキーバー, pluralName => ウィスキーバー, shortName => ウィスキーバー
+  id => 4bf58dd8d48988d123941735, name => ワインバー, pluralName => ワインバー, shortName => ワインバー
+id => 4d4b7105d754a06377d81259, name => アウトドア＆レクリエーション, pluralName => アウトドア＆レクリエーション, shortName => アウトドア＆レクリエーション
+  id => 4f4528bc4b90abdf24c9de85, name => アスレチックス＆スポーツ, pluralName => アスレチックス＆スポーツ, shortName => アスレチックス＆スポーツ
+    id => 52e81612bcbc57f1066b7a2b, name => バドミントンコート, pluralName => バドミントンコート, shortName => バドミントンコート
+    id => 4bf58dd8d48988d1e8941735, name => 野球グラウンド, pluralName => 野球グラウンド, shortName => 野球グラウンド
+    id => 4bf58dd8d48988d1e1941735, name => バスケットボール場, pluralName => バスケットボール場, shortName => バスケットボール場
+    id => 52e81612bcbc57f1066b7a2f, name => ボーリンググリーン, pluralName => ボーリンググリーン, shortName => ボーリンググリーン
+    id => 4bf58dd8d48988d1e6941735, name => ゴルフコース, pluralName => ゴルフコース, shortName => ゴルフコース
+    id => 4f452cd44b9081a197eba860, name => ホッケー場, pluralName => ホッケー場, shortName => ホッケー場
+    id => 5032829591d4c4b30a586d5e, name => サバイバルゲーム場, pluralName => サバイバルゲーム場, shortName => サバイバルゲーム場
+    id => 52e81612bcbc57f1066b7a2c, name => ラグビー場, pluralName => ラグビー場, shortName => 競技場
+    id => 4bf58dd8d48988d167941735, name => スケート場, pluralName => スケート場, shortName => スケート場
+    id => 4bf58dd8d48988d168941735, name => スケートリンク, pluralName => スケートリンク, shortName => スケートリンク
+    id => 4cce455aebf7b749d5e191f5, name => サッカー場, pluralName => サッカー場, shortName => サッカー場
+    id => 52e81612bcbc57f1066b7a2e, name => スポーツクラブ, pluralName => スポーツクラブ, shortName => スポーツクラブ
+    id => 52e81612bcbc57f1066b7a2d, name => スカッシュコート, pluralName => スカッシュコート, shortName => スカッシュコート
+    id => 4e39a956bd410d7aed40cbc3, name => テニスコート, pluralName => テニスコート, shortName => テニスコート
+    id => 4eb1bf013b7b6f98df247e07, name => バレーボールコート, pluralName => バレーボールコート, shortName => バレーボールコート
+  id => 52e81612bcbc57f1066b7a27, name => 浴場, pluralName => 浴場, shortName => 浴場
+  id => 52e81612bcbc57f1066b7a28, name => 浴場, pluralName => 浴場, shortName => 浴場
+  id => 4bf58dd8d48988d1e2941735, name => 海岸, pluralName => 海岸, shortName => 海岸
+    id => 52e81612bcbc57f1066b7a30, name => ヌードビーチ, pluralName => ヌードビーチ, shortName => ヌードビーチ
+    id => 4bf58dd8d48988d1e3941735, name => サーフスポット, pluralName => サーフスポット, shortName => サーフスポット
+  id => 52e81612bcbc57f1066b7a22, name => 植物園, pluralName => 植物園, shortName => 植物園
+  id => 4bf58dd8d48988d1df941735, name => 橋, pluralName => 橋, shortName => 橋
+  id => 4bf58dd8d48988d1e4941735, name => キャンプ場, pluralName => キャンプ場, shortName => キャンプ場
+  id => 50aaa49e4b90af0d42d5de11, name => 城, pluralName => 城址, shortName => 城
+  id => 4bf58dd8d48988d15c941735, name => 墓地, pluralName => 墓地, shortName => 墓地
+  id => 52e81612bcbc57f1066b7a12, name => ダイビングスポット, pluralName => ダイビングスポット, shortName => ダイビングスポット
+  id => 4bf58dd8d48988d1e5941735, name => ドッグラン, pluralName => ドッグラン, shortName => ドッグラン
+  id => 4bf58dd8d48988d15b941735, name => 農場, pluralName => 農場, shortName => 農場
+  id => 4bf58dd8d48988d15f941735, name => 野原, pluralName => 野原, shortName => 野原
+  id => 52e81612bcbc57f1066b7a0f, name => 釣り場, pluralName => 釣り場, shortName => 釣り場
+  id => 52e81612bcbc57f1066b7a23, name => 森林, pluralName => 森林, shortName => 森林
+  id => 4bf58dd8d48988d15a941735, name => 庭園, pluralName => 庭園, shortName => 庭園
+  id => 52e81612bcbc57f1066b7a11, name => 射撃場, pluralName => 射撃場, shortName => 射撃場
+  id => 4bf58dd8d48988d1e0941735, name => 港 / マリーナ, pluralName => 港 / マリーナ, shortName => 港 / マリーナ
+  id => 4bf58dd8d48988d160941735, name => 温泉, pluralName => 温泉, shortName => 温泉
+  id => 50aaa4314b90af0d42d5de10, name => 島嶼, pluralName => 島嶼, shortName => 島嶼
+  id => 4bf58dd8d48988d161941735, name => 湖沼, pluralName => 湖沼, shortName => 湖沼
+  id => 4bf58dd8d48988d15d941735, name => 灯台, pluralName => 灯台, shortName => 灯台
+  id => 4eb1d4d54b900d56c88a45fc, name => 山岳, pluralName => 山岳, shortName => 山岳
+  id => 52e81612bcbc57f1066b7a21, name => 国立公園, pluralName => 国立公園, shortName => 国立公園
+  id => 52e81612bcbc57f1066b7a13, name => 自然保護地区, pluralName => 自然保護地区, shortName => 保護地区
+  id => 4bf58dd8d48988d162941735, name => その他の素晴らしいアウトドア, pluralName => その他の素晴らしいアウトドア, shortName => その他のアウトドア
+  id => 52e81612bcbc57f1066b7a14, name => 宮殿, pluralName => 宮殿, shortName => 宮殿
+  id => 4bf58dd8d48988d163941735, name => 公園, pluralName => 公園, shortName => 公園
+  id => 52e81612bcbc57f1066b7a25, name => 歩行者天国, pluralName => 歩行者天国, shortName => 歩行者天国
+  id => 4bf58dd8d48988d1e7941735, name => 遊び場, pluralName => 遊び場, shortName => 遊び場
+  id => 4bf58dd8d48988d164941735, name => 広場, pluralName => 広場, shortName => 広場
+  id => 4bf58dd8d48988d15e941735, name => プール, pluralName => プール, shortName => プール
+  id => 52e81612bcbc57f1066b7a29, name => ラフティング, pluralName => ラフティングスポット, shortName => ラフティング
+  id => 52e81612bcbc57f1066b7a26, name => リクリエーションセンター, pluralName => リクリエーションセンター, shortName => リクリエーションセンター
+  id => 4eb1d4dd4b900d56c88a45fd, name => 河川, pluralName => 河川, shortName => 河川
+  id => 50328a4b91d4c4b30a586d6b, name => ロッククライミング場, pluralName => ロッククライミング場, shortName => ロッククライミング
+  id => 4bf58dd8d48988d165941735, name => 展望台, pluralName => 展望台, shortName => 展望台
+  id => 4bf58dd8d48988d166941735, name => 彫刻庭園, pluralName => 彫刻庭園, shortName => 彫刻
+  id => 4bf58dd8d48988d1e9941735, name => スキー場, pluralName => スキー場, shortName => スキー場
+    id => 4bf58dd8d48988d1ea941735, name => スキー場のバー, pluralName => スキー場のバー, shortName => スキー場のバー
+    id => 4eb1c0ed3b7b52c0e1adc2ea, name => スキーリフト, pluralName => スキーリフト, shortName => リフト
+    id => 4bf58dd8d48988d1ec941735, name => スキーコテージ, pluralName => スキーコテージ, shortName => スキーコテージ
+    id => 4bf58dd8d48988d1eb941735, name => スキーロッジ, pluralName => スキーロッジ, shortName => ロッジ
+    id => 4eb1c0f63b7b52c0e1adc2eb, name => スキーコース, pluralName => スキーコース, shortName => 遊歩道
+  id => 4eb1baf03b7b2c5b1d4306ca, name => 厩舎, pluralName => 厩舎, shortName => 厩舎
+  id => 530e33ccbcbc57f1066bbfe4, name => 都道府県・自治体, pluralName => 都道府県・自治体, shortName => 都道府県・自治体
+    id => 50aa9e094b90af0d42d5de0d, name => 市, pluralName => 市, shortName => 市区町村
+    id => 5345731ebcbc57f1066c39b2, name => 郡, pluralName => 郡, shortName => 国
+    id => 530e33ccbcbc57f1066bbff7, name => 国, pluralName => 国, shortName => 国
+    id => 4f2a25ac4b909258e854f55f, name => 地域, pluralName => 近隣地域, shortName => 地域
+    id => 530e33ccbcbc57f1066bbff8, name => 県, pluralName => 都道府県/州, shortName => 県
+    id => 530e33ccbcbc57f1066bbff3, name => 町, pluralName => 町, shortName => 町
+    id => 530e33ccbcbc57f1066bbff9, name => 村, pluralName => 村, shortName => 村
+  id => 52e81612bcbc57f1066b7a10, name => サマーキャンプ, pluralName => サマーキャンプ, shortName => サマーキャンプ
+  id => 4bf58dd8d48988d159941735, name => 遊歩道, pluralName => 遊歩道, shortName => 遊歩道
+  id => 52e81612bcbc57f1066b7a24, name => 木, pluralName => 木, shortName => 木
+  id => 4bf58dd8d48988d1de941735, name => ブドウ園, pluralName => ブドウ園, shortName => ブドウ園
+  id => 5032848691d4c4b30a586d61, name => 火山, pluralName => 火山, shortName => 火山
+  id => 4fbc1be21983fc883593e321, name => 井戸, pluralName => 井戸, shortName => 井戸
+id => 4d4b7105d754a06375d81259, name => 専門 & その他, pluralName => 専門 & その他, shortName => 専門
+  id => 4e52d2d203646f7c19daa8ae, name => 動物保護施設, pluralName => 動物保護施設, shortName => 動物保護施設
+  id => 4bf58dd8d48988d173941735, name => 講堂, pluralName => 講堂, shortName => 講堂
+  id => 4bf58dd8d48988d130941735, name => 建物, pluralName => 建物, shortName => 建物
+  id => 52e81612bcbc57f1066b7a35, name => クラブハウス, pluralName => クラブハウス, shortName => クラブ
+  id => 52e81612bcbc57f1066b7a34, name => コミュニティセンター, pluralName => コミュニティセンター, shortName => コミュニティセンター
+  id => 4bf58dd8d48988d1ff931735, name => コンベンションセンター, pluralName => コンベンションセンター, shortName => コンベンションセンター
+    id => 4bf58dd8d48988d100941735, name => 会議室, pluralName => 会議室, shortName => 会議室
+  id => 52e81612bcbc57f1066b7a32, name => 文化センター, pluralName => 文化センター, shortName => 文化センター
+  id => 52e81612bcbc57f1066b7a37, name => 配送センター, pluralName => 配送センター, shortName => 配送業
+  id => 4bf58dd8d48988d171941735, name => イベントスペース, pluralName => イベントスペース, shortName => イベントスペース
+  id => 4eb1bea83b7b6f98df247e06, name => 工場, pluralName => 工場, shortName => 工場
+  id => 4eb1daf44b900d56c88a4600, name => フェア / 催し物, pluralName => フェア / 催し物, shortName => フェア / 催し物
+  id => 4f4534884b9074f6e4fb0174, name => 葬儀場, pluralName => 葬儀場, shortName => 葬儀場
+  id => 4bf58dd8d48988d126941735, name => 行政施設, pluralName => 行政施設, shortName => 行政
+    id => 4bf58dd8d48988d12a941735, name => 議会 / 議事堂, pluralName => 議会 / 議事堂, shortName => 議会 / 議事堂
+    id => 4bf58dd8d48988d129941735, name => 市役所, pluralName => 市役所, shortName => 市役所
+    id => 4bf58dd8d48988d12b941735, name => 裁判所, pluralName => 裁判所, shortName => 裁判所
+    id => 4bf58dd8d48988d12c951735, name => 大使館 / 領事館, pluralName => 大使館 / 領事館, shortName => 大使館
+    id => 4bf58dd8d48988d12c941735, name => 消防署, pluralName => 消防署, shortName => 消防署
+    id => 4bf58dd8d48988d12d941735, name => 記念碑 / ランドマーク, pluralName => 記念碑 / ランドマーク, shortName => ランドマーク
+    id => 4bf58dd8d48988d12e941735, name => 警察署, pluralName => 警察署, shortName => 警察署
+    id => 52e81612bcbc57f1066b7a38, name => 町役場, pluralName => 町役場, shortName => 町役場
+  id => 4bf58dd8d48988d12f941735, name => 図書館, pluralName => 図書館, shortName => 図書館
+  id => 4bf58dd8d48988d104941735, name => 医療センター, pluralName => 医療センター, shortName => 医療
+    id => 52e81612bcbc57f1066b7a3b, name => 鍼灸師, pluralName => 鍼灸師, shortName => 鍼灸師
+    id => 52e81612bcbc57f1066b7a3c, name => 代替医療の治療師, pluralName => 代替医療の治療師, shortName => 代替医療の治療師
+    id => 52e81612bcbc57f1066b7a3a, name => カイロプラクター, pluralName => カイロプラクター, shortName => カイロプラクター
+    id => 4bf58dd8d48988d178941735, name => 歯科医, pluralName => 歯科医院, shortName => 歯科医
+    id => 4bf58dd8d48988d177941735, name => 医院, pluralName => 医院 / 診療所, shortName => 医院
+    id => 4bf58dd8d48988d194941735, name => 救急処置室, pluralName => 救命救急センター, shortName => 救急処置室
+    id => 522e32fae4b09b556e370f19, name => 眼科医, pluralName => 眼科医院, shortName => 眼科医
+    id => 4bf58dd8d48988d196941735, name => 病院, pluralName => 病院, shortName => 病院
+    id => 4f4531b14b9074f6e4fb0103, name => 研究室, pluralName => 研究室, shortName => 研究室
+    id => 52e81612bcbc57f1066b7a39, name => 精神科医, pluralName => 精神科医, shortName => 精神科
+    id => 4d954af4a243a5684765b473, name => 獣医, pluralName => 獣医, shortName => 獣医
+  id => 4e52adeebd41615f56317744, name => 軍事基地, pluralName => 軍事基地, shortName => 軍事基地
+  id => 50328a8e91d4c4b30a586d6c, name => 非営利団体, pluralName => 非営利団体, shortName => 非営利団体
+  id => 4bf58dd8d48988d124941735, name => オフィス, pluralName => オフィス, shortName => オフィス
+    id => 52e81612bcbc57f1066b7a3d, name => 広告代理店, pluralName => 広告代理店, shortName => 広告代理店
+    id => 5032764e91d4c4b30a586d5a, name => 選挙事務所, pluralName => 選挙事務所, shortName => 選挙
+    id => 4bf58dd8d48988d127941735, name => 会議場, pluralName => 会議場, shortName => 会議場
+    id => 4bf58dd8d48988d174941735, name => コワーキングスペース, pluralName => コワーキングスペース, shortName => コワーキングスペース
+    id => 4bf58dd8d48988d125941735, name => 技術系ベンチャー企業, pluralName => 技術系ベンチャー企業, shortName => 技術系ベンチャー企業
+  id => 4c38df4de52ce0d596b336e1, name => 駐車場, pluralName => 駐車場, shortName => 駐車場
+  id => 4bf58dd8d48988d172941735, name => 郵便局, pluralName => 郵便局, shortName => 郵便局
+  id => 5310b8e5bcbc57f1066bcbf1, name => 刑務所, pluralName => 刑務所, shortName => 刑務所
+  id => 5032856091d4c4b30a586d63, name => ラジオ局, pluralName => ラジオ局, shortName => ラジオ局
+  id => 52f2ab2ebcbc57f1066b8b57, name => 職業紹介所, pluralName => 人材会社, shortName => 職業紹介所
+  id => 4bf58dd8d48988d13b941735, name => 学校, pluralName => 学校, shortName => 学校
+    id => 52e81612bcbc57f1066b7a43, name => サーカス学校, pluralName => サーカス学校, shortName => サーカス学校
+    id => 52e81612bcbc57f1066b7a42, name => 自動車教習所, pluralName => 自動車教習所, shortName => 自動車教習所
+    id => 4f4533804b9074f6e4fb0105, name => 小学校, pluralName => 小学校, shortName => 小学校
+    id => 52e81612bcbc57f1066b7a49, name => 航空専門学校, pluralName => 航空専門学校, shortName => 航空専門学校
+    id => 4bf58dd8d48988d13d941735, name => 高校, pluralName => 高校, shortName => 高校
+    id => 52e81612bcbc57f1066b7a48, name => 語学学校, pluralName => 語学学校, shortName => 語学学校
+    id => 4f4533814b9074f6e4fb0106, name => 中学校, pluralName => 中学校, shortName => 中学校
+    id => 4f04b10d2fb6e1c99f3db0be, name => 音楽学校, pluralName => 音楽学校, shortName => 音楽学校
+    id => 4f4533814b9074f6e4fb0107, name => 保育園, pluralName => 幼稚園 / 保育園, shortName => 保育園
+    id => 52e81612bcbc57f1066b7a45, name => 幼稚園, pluralName => 幼稚園, shortName => 幼稚園
+    id => 52e81612bcbc57f1066b7a46, name => 私立学校, pluralName => 私立学校, shortName => 私立学校
+    id => 52e81612bcbc57f1066b7a47, name => 宗教学校, pluralName => 宗教学校, shortName => 宗教学校
+    id => 52e81612bcbc57f1066b7a44, name => 水泳教室, pluralName => 水泳教室, shortName => 水泳教室
+  id => 52e81612bcbc57f1066b7a33, name => 社交クラブ, pluralName => 社交クラブ, shortName => 社交クラブ
+  id => 4bf58dd8d48988d131941735, name => 宗教施設, pluralName => 宗教施設, shortName => 宗教
+    id => 52e81612bcbc57f1066b7a3e, name => 仏教寺院, pluralName => 仏教寺院, shortName => 仏教寺院
+    id => 4bf58dd8d48988d132941735, name => 教会, pluralName => 教会, shortName => 教会
+    id => 52e81612bcbc57f1066b7a3f, name => ヒンズー教寺院, pluralName => ヒンズー教寺院, shortName => ヒンズー教寺院
+    id => 52e81612bcbc57f1066b7a40, name => 修道院, pluralName => 修道院, shortName => 修道院
+    id => 4bf58dd8d48988d138941735, name => モスク, pluralName => モスク, shortName => モスク
+    id => 52e81612bcbc57f1066b7a41, name => 礼拝堂, pluralName => 礼拝堂, shortName => 礼拝堂
+    id => 4eb1d80a4b900d56c88a45ff, name => 神社, pluralName => 神社, shortName => 神社
+    id => 4bf58dd8d48988d139941735, name => ユダヤ教会堂, pluralName => ユダヤ教会堂, shortName => ユダヤ教会堂
+    id => 4bf58dd8d48988d13a941735, name => 寺院, pluralName => 寺院, shortName => 寺院
+  id => 52e81612bcbc57f1066b7a31, name => テレビ局, pluralName => テレビ局, shortName => テレビ局
+  id => 4cae28ecbf23941eb1190695, name => 投票所, pluralName => 投票所, shortName => 投票所
+  id => 52e81612bcbc57f1066b7a36, name => 倉庫, pluralName => 倉庫, shortName => 倉庫
+id => 4e67e38e036454776db1fb3a, name => 住宅, pluralName => 住宅, shortName => 住宅
+  id => 5032891291d4c4b30a586d68, name => 介護施設, pluralName => 介護施設, shortName => 介護施設
+  id => 4bf58dd8d48988d103941735, name => 自宅（個人）, pluralName => 自宅（個人）, shortName => 自宅
+  id => 4f2a210c4b9023bd5841ed28, name => 住宅団地, pluralName => 住宅開発地, shortName => 住宅団地
+  id => 4d954b06a243a5684965b473, name => 集合住宅, pluralName => 集合住宅, shortName => 住宅
+  id => 52f2ab2ebcbc57f1066b8b55, name => トレイラーパーク, pluralName => トレーラーパーク, shortName => トレイラーパーク
+id => 4d4b7105d754a06378d81259, name => 店舗 & サービス, pluralName => 店舗 & サービス, shortName => ショッピング
+  id => 52f2ab2ebcbc57f1066b8b56, name => ATM, pluralName => ATM, shortName => ATM
+  id => 5267e446e4b0ec79466e48c4, name => アダルトショップ, pluralName => アダルトショップ, shortName => アダルトショップ
+  id => 4bf58dd8d48988d116951735, name => アンティークショップ, pluralName => アンティークショップ, shortName => アンティーク
+  id => 4bf58dd8d48988d127951735, name => 美術品＆工芸品店, pluralName => 美術品＆工芸品店, shortName => 美術 & 工芸品
+  id => 52f2ab2ebcbc57f1066b8b43, name => 占星術師, pluralName => 占星術師, shortName => 占星術師
+  id => 52f2ab2ebcbc57f1066b8b44, name => ガレージ, pluralName => ガレージ, shortName => ガレージ
+  id => 4bf58dd8d48988d124951735, name => 自動車販売店, pluralName => 自動車販売店, shortName => 自動車販売店
+  id => 52f2ab2ebcbc57f1066b8b32, name => ベビー用品店, pluralName => ベビー用品店, shortName => ベビー用品店
+  id => 4bf58dd8d48988d10a951735, name => 銀行, pluralName => 銀行, shortName => 銀行
+  id => 52f2ab2ebcbc57f1066b8b40, name => 賭け屋, pluralName => 賭け屋, shortName => 賭け屋
+  id => 52f2ab2ebcbc57f1066b8b42, name => 大型店, pluralName => 大型店, shortName => 大型店
+  id => 4bf58dd8d48988d115951735, name => 二輪車店, pluralName => 二輪車店, shortName => 二輪車店
+  id => 4bf58dd8d48988d1f1941735, name => ボードショップ, pluralName => ボードショップ, shortName => ボードショップ
+  id => 4bf58dd8d48988d114951735, name => 書店, pluralName => 書店, shortName => 書店
+  id => 4bf58dd8d48988d11a951735, name => ブライダルショップ, pluralName => ブライダルショップ, shortName => ブライダル
+  id => 5453de49498eade8af355881, name => ビジネスサービス, pluralName => ビジネスサービス, shortName => ビジネスサービス
+  id => 4eb1bdf03b7b55596b4a7491, name => カメラ店, pluralName => カメラ店, shortName => カメラ店
+  id => 4bf58dd8d48988d117951735, name => お菓子屋, pluralName => お菓子屋, shortName => お菓子屋
+  id => 4eb1c1623b7b52c0e1adc2ec, name => 自動車ディーラー, pluralName => 自動車ディーラー, shortName => 自動車ディーラー
+  id => 4f04ae1f2fb6e1c99f3db0ba, name => 洗車場, pluralName => 洗車場, shortName => 洗車場
+  id => 52f2ab2ebcbc57f1066b8b2a, name => カーペット店, pluralName => カーペット店, shortName => カーペット店
+  id => 52f2ab2ebcbc57f1066b8b2d, name => 小切手換金所, pluralName => 小切手換金所, shortName => 小切手換金所
+  id => 52f2ab2ebcbc57f1066b8b31, name => チョコレート店, pluralName => チョコレート店, shortName => チョコレート店
+  id => 52f2ab2ebcbc57f1066b8b3b, name => クリスマスマーケット, pluralName => クリスマスマーケット, shortName => クリスマスマーケット
+  id => 4bf58dd8d48988d103951735, name => 衣料品店, pluralName => 衣料品店, shortName => アパレル
+    id => 4bf58dd8d48988d102951735, name => アクセサリー店, pluralName => アクセサリー店, shortName => アクセサリー
+    id => 4bf58dd8d48988d104951735, name => ブティック, pluralName => ブティック, shortName => ブティック
+    id => 4bf58dd8d48988d105951735, name => 子供服, pluralName => 子供服店, shortName => 子供服
+    id => 4bf58dd8d48988d109951735, name => 婦人用下着店, pluralName => 婦人用下着店, shortName => 婦人用下着
+    id => 4bf58dd8d48988d106951735, name => 紳士服, pluralName => 紳士服店, shortName => 紳士服
+    id => 4bf58dd8d48988d107951735, name => 靴屋, pluralName => 靴屋, shortName => 靴
+    id => 4bf58dd8d48988d108951735, name => 婦人服, pluralName => 婦人服店, shortName => 婦人服
+  id => 52f2ab2ebcbc57f1066b8b18, name => コミック店, pluralName => コミック店, shortName => コミック店
+  id => 5454144b498ec1f095bff2f2, name => 建設＆造園, pluralName => 建設＆造園, shortName => 建設
+  id => 4d954b0ea243a5684a65b473, name => コンビニ, pluralName => コンビニエンスストア, shortName => コンビニエンスストア
+  id => 4bf58dd8d48988d10c951735, name => 化粧品店, pluralName => 化粧品店, shortName => 化粧品
+  id => 52f2ab2ebcbc57f1066b8b17, name => コスチューム店, pluralName => コスチューム店, shortName => コスチューム店
+  id => 5032850891d4c4b30a586d62, name => 信用組合, pluralName => 信用組合, shortName => 信用組合
+  id => 4f4532974b9074f6e4fb0104, name => デイケア, pluralName => デイケア, shortName => デイケア
+  id => 4bf58dd8d48988d1f6941735, name => デパート, pluralName => デパート, shortName => デパート
+  id => 4bf58dd8d48988d1f4941735, name => デザインスタジオ, pluralName => デザインスタジオ, shortName => デザイン
+  id => 52dea92d3cf9994f4e043dbb, name => ディスカウントストア, pluralName => ディスカウントストア, shortName => ディスカウントストア
+  id => 52f2ab2ebcbc57f1066b8b1a, name => ダイビング用品店, pluralName => ダイビング用品店, shortName => ダイビング用品店
+  id => 4bf58dd8d48988d10f951735, name => ドラッグストア / 薬局, pluralName => ドラッグストア / 薬局, shortName => 薬局
+  id => 52f2ab2ebcbc57f1066b8b1d, name => クリーニング店, pluralName => クリーニング店, shortName => クリーニング店
+  id => 5032872391d4c4b30a586d64, name => 電気自動車充電ステーション, pluralName => 電気自動車充電ステーション, shortName => 電気自動車充電
+  id => 4bf58dd8d48988d122951735, name => 電器店, pluralName => 電器店, shortName => 電器店
+  id => 5454152e498ef71e2b9132c6, name => イベントサービス, pluralName => イベントサービス, shortName => イベントサービス
+  id => 52f2ab2ebcbc57f1066b8b26, name => 生地店, pluralName => 生地店, shortName => 生地店
+  id => 503287a291d4c4b30a586d65, name => 金融·法務サービス, pluralName => 金融·法務サービス, shortName => 金融 / 法務
+  id => 52f2ab2ebcbc57f1066b8b3a, name => 花火店, pluralName => 花火店, shortName => 花火店
+  id => 52f2ab2ebcbc57f1066b8b16, name => 釣具店, pluralName => 釣具店, shortName => 釣具店
+  id => 4bf58dd8d48988d1f7941735, name => フリーマーケット, pluralName => フリーマーケット, shortName => フリーマーケット
+  id => 4bf58dd8d48988d11b951735, name => 生花店, pluralName => 生花店, shortName => 生花店
+  id => 4bf58dd8d48988d1f9941735, name => 食料品店, pluralName => 食料品店, shortName => 食料品
+    id => 5370f356bcbc57f1066c94c2, name => ビールショップ, pluralName => ビールショップ, shortName => ビールショップ
+    id => 4bf58dd8d48988d11d951735, name => 精肉店, pluralName => 精肉店, shortName => 精肉店
+    id => 4bf58dd8d48988d11e951735, name => チーズショップ, pluralName => チーズショップ, shortName => チーズショップ
+    id => 4bf58dd8d48988d1fa941735, name => 農産物直売所, pluralName => 農産物直売所, shortName => 農産物直売所
+    id => 4bf58dd8d48988d10e951735, name => 魚市場, pluralName => 魚市場, shortName => 魚市場
+    id => 4bf58dd8d48988d120951735, name => フードコート, pluralName => フードコート, shortName => フードコート
+    id => 4bf58dd8d48988d1f5941735, name => グルメショップ, pluralName => グルメショップ, shortName => グルメ
+    id => 4bf58dd8d48988d118951735, name => 食料品店, pluralName => 食料品店, shortName => 食料品店
+    id => 50aa9e744b90af0d42d5de0e, name => 健康食品店, pluralName => 健康食品店, shortName => 健康食品店
+    id => 4bf58dd8d48988d186941735, name => 酒屋, pluralName => 酒屋, shortName => 酒屋
+    id => 52f2ab2ebcbc57f1066b8b45, name => オーガニック食料品店, pluralName => オーガニック食料品店, shortName => オーガニック食料品店
+    id => 53e0feef498e5aac066fd8a9, name => 屋台村, pluralName => 屋台村, shortName => 屋台村
+    id => 52f2ab2ebcbc57f1066b8b46, name => スーパーマーケット, pluralName => スーパーマーケット, shortName => スーパーマーケット
+    id => 4bf58dd8d48988d119951735, name => ワインショップ, pluralName => ワインショップ, shortName => ワインショップ
+  id => 52f2ab2ebcbc57f1066b8b24, name => 額縁屋, pluralName => 額縁屋, shortName => 額縁屋
+  id => 52f2ab2ebcbc57f1066b8b1c, name => 八百屋, pluralName => 八百屋, shortName => 八百屋
+  id => 4bf58dd8d48988d1f8941735, name => 家具 / 家財店, pluralName => 家具 / 家財店, shortName => 家具 / 家
+  id => 4bf58dd8d48988d18d941735, name => ゲームカフェ, pluralName => ゲームカフェ, shortName => ゲームカフェ
+  id => 4eb1c0253b7b52c0e1adc2e9, name => 園芸用品店, pluralName => 園芸用品店, shortName => 園芸用品店
+  id => 4bf58dd8d48988d113951735, name => ガソリンスタンド / 整備工場, pluralName => ガソリンスタンド / ガレージ, shortName => ガソリンスタンド / 整備工場
+  id => 4bf58dd8d48988d128951735, name => ギフトショップ, pluralName => ギフトショップ, shortName => ギフトショップ
+  id => 52f2ab2ebcbc57f1066b8b19, name => 銃砲店, pluralName => 銃砲店, shortName => 銃砲店
+  id => 4bf58dd8d48988d175941735, name => ジム / フィットネスセンター, pluralName => ジムまたはフィットネスセンター, shortName => ジム / フィットネス
+    id => 52f2ab2ebcbc57f1066b8b47, name => ボクシング​​ジム, pluralName => ボクシング​​ジム, shortName => ボクシング​​ジム
+    id => 503289d391d4c4b30a586d6a, name => クライミングジム, pluralName => クライミングジム, shortName => クライミングジム
+    id => 52f2ab2ebcbc57f1066b8b49, name => サイクルスタジオ, pluralName => サイクルスタジオ, shortName => サイクルスタジオ
+    id => 4bf58dd8d48988d105941735, name => ジムのプール, pluralName => ジムのプール, shortName => プール
+    id => 52f2ab2ebcbc57f1066b8b48, name => 体操ジム, pluralName => 体操ジム, shortName => 体操ジム
+    id => 4bf58dd8d48988d176941735, name => ジム, pluralName => ジム, shortName => ジム
+    id => 4bf58dd8d48988d101941735, name => 武術道場, pluralName => 武術道場, shortName => 武術
+    id => 4bf58dd8d48988d106941735, name => 陸上競技場, pluralName => 陸上競技場, shortName => 陸上競技場
+    id => 4bf58dd8d48988d102941735, name => ヨガスタジオ, pluralName => ヨガスタジオ, shortName => ヨガスタジオ
+  id => 4bf58dd8d48988d112951735, name => 金物屋, pluralName => 金物屋, shortName => 金物屋
+  id => 54541900498ea6ccd0202697, name => ヘルス＆ビューティーサービス, pluralName => ヘルス＆ビューティーサービス, shortName => ヘルス＆ビューティー
+  id => 52f2ab2ebcbc57f1066b8b2c, name => ハーブ＆スパイス店, pluralName => ハーブ＆スパイス店, shortName => ハーブ＆スパイス店
+  id => 4bf58dd8d48988d1fb941735, name => ホビーショップ, pluralName => ホビーショップ, shortName => ホビーショップ
+  id => 545419b1498ea6ccd0202f58, name => ホームサービス, pluralName => ホームサービス＆修理, shortName => ホームサービス
+  id => 50aaa5234b90af0d42d5de12, name => 狩猟用品, pluralName => 狩猟用品店, shortName => 狩猟用品
+  id => 52f2ab2ebcbc57f1066b8b36, name => IT サービス, pluralName => IT サービス, shortName => IT サービス
+  id => 4bf58dd8d48988d1f0941735, name => ネットカフェ, pluralName => インターネットカフェ, shortName => ネットカフェ
+  id => 4bf58dd8d48988d111951735, name => 宝飾店, pluralName => 宝飾店, shortName => 宝飾
+  id => 52f2ab2ebcbc57f1066b8b25, name => 編み物専門店, pluralName => 編み物専門店, shortName => 編み物用品
+  id => 52f2ab2ebcbc57f1066b8b33, name => コインランドリー, pluralName => コインランドリー, shortName => コインランドリー
+  id => 4bf58dd8d48988d1fc941735, name => クリーニング店, pluralName => クリーニング店, shortName => ランドリー
+  id => 52f2ab2ebcbc57f1066b8b3f, name => 弁護士, pluralName => 弁護士, shortName => 弁護士
+  id => 52f2ab2ebcbc57f1066b8b2b, name => 革用品店, pluralName => 革用品店, shortName => 革用品
+  id => 52f2ab2ebcbc57f1066b8b1e, name => 鍵屋, pluralName => 鍵屋, shortName => 鍵屋
+  id => 52f2ab2ebcbc57f1066b8b38, name => 宝くじ売り場, pluralName => 宝くじ売り場, shortName => 宝くじ
+  id => 52f2ab2ebcbc57f1066b8b29, name => カバン店, pluralName => カバン店, shortName => カバン店
+  id => 4bf58dd8d48988d1fd941735, name => モール, pluralName => ショッピングモール, shortName => モール
+  id => 52c71aaf3cf9994f4e043d17, name => マリファナ販売所, pluralName => マリファナ販売所, shortName => マリファナ
+  id => 50be8ee891d4fa8dcc7199a7, name => 市場, pluralName => 市場, shortName => 市場
+  id => 52f2ab2ebcbc57f1066b8b3c, name => マッサージスタジオ, pluralName => マッサージスタジオ, shortName => マッサージスタジオ
+  id => 52f2ab2ebcbc57f1066b8b27, name => マットレス専門店, pluralName => マットレス専門店, shortName => マットレス専門店
+  id => 4bf58dd8d48988d1ff941735, name => その他の店舗, pluralName => その他の店舗, shortName => 店舗
+  id => 4f04afc02fb6e1c99f3db0bc, name => 携帯ショップ, pluralName => 携帯ショップ, shortName => 携帯電話
+  id => 5032833091d4c4b30a586d60, name => オートバイショップ, pluralName => オートバイショップ, shortName => オートバイショップ
+  id => 4bf58dd8d48988d1fe941735, name => ミュージックストア, pluralName => ミュージックストア, shortName => ミュージックストア
+  id => 4f04aa0c2fb6e1c99f3db0b8, name => ネイルサロン, pluralName => ネイルサロン, shortName => ネイルサロン
+  id => 4f04ad622fb6e1c99f3db0b9, name => 新聞スタンド, pluralName => 新聞スタンド, shortName => 新聞スタンド
+  id => 4d954afda243a5684865b473, name => メガネ店, pluralName => メガネ店, shortName => メガネ
+  id => 52f2ab2ebcbc57f1066b8b2f, name => その他の修理店, pluralName => その他の修理店, shortName => その他の修理
+  id => 52f2ab2ebcbc57f1066b8b22, name => アウトドア用品店, pluralName => アウトドア用品店, shortName => アウトドア用品
+  id => 52f2ab2ebcbc57f1066b8b35, name => アウトレット店, pluralName => アウトレット店, shortName => アウトレット店
+  id => 4bf58dd8d48988d121951735, name => 紙 / 事務用品店, pluralName => 紙 / 事務用品店, shortName => 紙 / 事務用品
+  id => 52f2ab2ebcbc57f1066b8b34, name => 質屋, pluralName => 質屋, shortName => 質屋
+  id => 52f2ab2ebcbc57f1066b8b23, name => 香水店, pluralName => 香水店, shortName => 香水店
+  id => 5032897c91d4c4b30a586d69, name => ペットサービス, pluralName => ペットサービス, shortName => ペットサービス
+  id => 4bf58dd8d48988d100951735, name => ペットショップ, pluralName => ペットショップ, shortName => ペットショップ
+  id => 4eb1bdde3b7b55596b4a7490, name => 写真現像所, pluralName => 写真現像所, shortName => 写真現像所
+  id => 52f2ab2ebcbc57f1066b8b20, name => ピアス店, pluralName => ピアス店, shortName => ピアス店
+  id => 52f2ab2ebcbc57f1066b8b3d, name => 期間限定店, pluralName => 期間限定店, shortName => 期間限定店
+  id => 52f2ab2ebcbc57f1066b8b28, name => 印刷店, pluralName => 印刷店, shortName => 印刷店
+  id => 5032885091d4c4b30a586d66, name => 不動産屋, pluralName => 不動産屋, shortName => 不動産
+  id => 4bf58dd8d48988d10d951735, name => CDショップ, pluralName => CDショップ, shortName => CDショップ
+  id => 52f2ab2ebcbc57f1066b8b37, name => レコーディングスタジオ, pluralName => レコーディングスタジオ, shortName => レコーディングスタジオ
+  id => 4f4531084b9074f6e4fb0101, name => リサイクル施設, pluralName => リサイクル施設, shortName => リサイクル
+  id => 4bf58dd8d48988d110951735, name => 美容院 / 理髪店, pluralName => 美容院 / 床屋, shortName => 美容院 / 理髪店
+  id => 52f2ab2ebcbc57f1066b8b1f, name => 運送業, pluralName => 運送業, shortName => 運送業
+  id => 52f2ab2ebcbc57f1066b8b39, name => 靴修理店, pluralName => 靴修理店, shortName => 靴修理店
+  id => 4bf58dd8d48988d123951735, name => たばこ屋, pluralName => たばこ屋, shortName => たばこ屋
+  id => 52f2ab2ebcbc57f1066b8b41, name => スムージー専門店, pluralName => スムージー専門店, shortName => スムージー専門店
+  id => 52f2ab2ebcbc57f1066b8b1b, name => 土産店, pluralName => 土産店, shortName => 土産店
+  id => 4bf58dd8d48988d1ed941735, name => スパ, pluralName => スパ, shortName => スパ
+  id => 4bf58dd8d48988d1f2941735, name => スポーツ用品店, pluralName => スポーツ用品店, shortName => スポーツ用品
+  id => 52f2ab2ebcbc57f1066b8b21, name => 文具店, pluralName => 文具店, shortName => 文具店
+  id => 4f04b1572fb6e1c99f3db0bf, name => 貯蔵設備, pluralName => 貯蔵設備, shortName => 貯蔵設備
+  id => 5032781d91d4c4b30a586d5b, name => 仕立屋, pluralName => 仕立屋, shortName => 仕立屋
+  id => 4d1cf8421a97d635ce361c31, name => 日焼けサロン, pluralName => 日焼けサロン, shortName => 日焼けサロン
+  id => 4bf58dd8d48988d1de931735, name => タトゥー店, pluralName => タトゥー店, shortName => タトゥー
+  id => 4bf58dd8d48988d101951735, name => リサイクル / ビンテージストア, pluralName => リサイクル / ビンテージストア, shortName => リサイクル / ビンテージ
+  id => 4bf58dd8d48988d1f3941735, name => おもちゃ / ゲーム店, pluralName => おもちゃ / ゲーム店, shortName => おもちゃ & ゲーム
+  id => 4f04b08c2fb6e1c99f3db0bd, name => 旅行代理店, pluralName => 旅行代理店, shortName => 旅行代理店
+  id => 52f2ab2ebcbc57f1066b8b30, name => 古本屋, pluralName => 古本屋, shortName => 古本屋
+  id => 4bf58dd8d48988d10b951735, name => ビデオゲーム店, pluralName => ビデオゲーム店, shortName => ビデオゲーム
+  id => 4bf58dd8d48988d126951735, name => ビデオ店, pluralName => ビデオ店, shortName => ビデオ店
+  id => 52e816a6bcbc57f1066b7a54, name => ウェアハウスストア, pluralName => ウェアハウスストア, shortName => ウェアハウスストア
+  id => 52f2ab2ebcbc57f1066b8b2e, name => 時計修理店, pluralName => 時計修理店, shortName => 時計修理
+id => 4d4b7105d754a06379d81259, name => 旅行 & 交通, pluralName => 旅行 & 交通, shortName => 旅行
+  id => 4bf58dd8d48988d1ed931735, name => 空港, pluralName => 空港, shortName => 空港
+    id => 4bf58dd8d48988d1ef931735, name => 空港のフードコート, pluralName => 空港のフードコート, shortName => フードコート
+    id => 4bf58dd8d48988d1f0931735, name => 搭乗ゲート, pluralName => 搭乗ゲート, shortName => ゲート
+    id => 4eb1bc533b7b2c5b1d4306cb, name => 空港ラウンジ, pluralName => 空港ラウンジ, shortName => ラウンジ
+    id => 4bf58dd8d48988d1eb931735, name => 空港ターミナル, pluralName => 空港ターミナル, shortName => ターミナル
+    id => 4bf58dd8d48988d1ec931735, name => 空港トラム, pluralName => 空港トラム, shortName => トラム
+    id => 4bf58dd8d48988d1f7931735, name => 飛行機, pluralName => 飛行機, shortName => 飛行機
+  id => 4e4c9077bd41f78e849722f9, name => 自転車レンタル / シェアリング, pluralName => 自転車レンタル / シェアリング, shortName => 自転車
+  id => 4bf58dd8d48988d12d951735, name => ボートまたはフェリー, pluralName => ボートまたはフェリー, shortName => ボート / フェリー
+  id => 52f2ab2ebcbc57f1066b8b4b, name => 国境通過地点, pluralName => 国境通過地点, shortName => 国境通過地点
+  id => 4bf58dd8d48988d1fe931735, name => バスターミナル, pluralName => バスターミナル, shortName => バスターミナル
+    id => 4bf58dd8d48988d12b951735, name => バス路線, pluralName => バス路線, shortName => バス
+  id => 52f2ab2ebcbc57f1066b8b4f, name => バス停, pluralName => バス停, shortName => バス停
+  id => 52f2ab2ebcbc57f1066b8b50, name => ケーブルカー, pluralName => ケーブルカー, shortName => ケーブルカー
+  id => 4bf58dd8d48988d1f6931735, name => 旅行全般, pluralName => 旅行全般, shortName => 旅行
+  id => 4bf58dd8d48988d1fa931735, name => ホテル, pluralName => ホテル, shortName => ホテル
+    id => 4bf58dd8d48988d1f8931735, name => ビジネスホテル, pluralName => ビジネスホテル, shortName => ビジネスホテル
+    id => 4f4530a74b9074f6e4fb0100, name => 下宿屋, pluralName => 下宿屋, shortName => 下宿
+    id => 4bf58dd8d48988d1ee931735, name => ユースホステル, pluralName => ユースホステル, shortName => ユースホステル
+    id => 4bf58dd8d48988d132951735, name => ホテルのプール, pluralName => ホテルのプール, shortName => プール
+    id => 4bf58dd8d48988d1fb931735, name => モーテル, pluralName => モーテル, shortName => モーテル
+    id => 4bf58dd8d48988d12f951735, name => リゾート, pluralName => リゾート, shortName => リゾート
+    id => 4bf58dd8d48988d133951735, name => ルーフデッキ, pluralName => ルーフデッキ, shortName => ルーフデッキ
+  id => 52f2ab2ebcbc57f1066b8b4c, name => 交差点, pluralName => 交差点, shortName => 交差点
+  id => 4bf58dd8d48988d1fc931735, name => ライトレール, pluralName => ライトレール, shortName => ライトレール
+  id => 4f2a23984b9023bd5841ed2c, name => 移動目標, pluralName => 移動目標, shortName => 移動目標
+  id => 4e74f6cabd41c4836eac4c31, name => 埠頭, pluralName => 埠頭, shortName => 埠頭
+  id => 52f2ab2ebcbc57f1066b8b53, name => RV パーク, pluralName => RV パーク, shortName => RV パーク
+  id => 4bf58dd8d48988d1ef941735, name => レンタカー営業所, pluralName => レンタカー営業所, shortName => レンタカー
+  id => 4d954b16a243a5684b65b473, name => サービスエリア, pluralName => サービスエリア, shortName => サービスエリア
+  id => 4bf58dd8d48988d1f9931735, name => 道路, pluralName => 道路, shortName => 道路
+  id => 52f2ab2ebcbc57f1066b8b52, name => 通り, pluralName => 通り, shortName => 通り
+  id => 4bf58dd8d48988d1fd931735, name => 地下鉄, pluralName => 地下鉄, shortName => 地下鉄
+  id => 53fca564498e1a175f32528b, name => タクシー乗り場, pluralName => タクシー乗り場, shortName => タクシー乗り場
+  id => 4bf58dd8d48988d130951735, name => タクシー, pluralName => タクシー, shortName => タクシー
+  id => 52f2ab2ebcbc57f1066b8b4d, name => 料金所, pluralName => 料金所, shortName => 料金所
+  id => 52f2ab2ebcbc57f1066b8b4e, name => 料金所, pluralName => 料金所, shortName => 料金所
+  id => 4f4530164b9074f6e4fb00ff, name => 観光案内所, pluralName => 観光案内所, shortName => 観光案内
+  id => 4bf58dd8d48988d129951735, name => 鉄道駅, pluralName => 鉄道駅, shortName => 鉄道駅
+    id => 4f4531504b9074f6e4fb0102, name => プラットホーム, pluralName => プラットフォーム, shortName => プラットホーム
+    id => 4bf58dd8d48988d12a951735, name => 列車, pluralName => 列車, shortName => 列車
+  id => 52f2ab2ebcbc57f1066b8b51, name => トラム, pluralName => 路面電車, shortName => トラム
+  id => 54541b70498ea6ccd0204bff, name => Transportation Service, pluralName => Transportation Services, shortName => Transportation Services
+  id => 4f04b25d2fb6e1c99f3db0c0, name => 旅行ラウンジ, pluralName => 旅行ラウンジ, shortName => ラウンジ
+  id => 52f2ab2ebcbc57f1066b8b4a, name => トンネル, pluralName => トンネル, shortName => トンネル
+====================
+name => ラウンドワン 梅田店, lat => 34.70327954479196, lng => 135.50100445747375
+  cat_id => 4bf58dd8d48988d1f1931735, cat_name => 娯楽全般
+name => ラウンドワンスタジアム 千日前店, lat => 34.66734908672303, lng => 135.5030223368347
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => タイトーステーション 難波店, lat => 34.66334924205096, lng => 135.5031931400299
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ナムコ 大阪日本橋店, lat => 34.66293889928392, lng => 135.50433307886124
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => パロ京橋, lat => 34.69676031313663, lng => 135.5331728653296
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => アミュージアム茶屋町店, lat => 34.70794976130229, lng => 135.49936026334763
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => アテナ日本橋, lat => 34.663016114475944, lng => 135.50488829612732
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => シャトーEX, lat => 34.69808422556429, lng => 135.5337381362915
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => タイトーステーション 大阪日本橋店, lat => 34.660376417167626, lng => 135.5060724914074
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => G-pala あべの, lat => 34.64249419781681, lng => 135.51141142845154
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => namco梅田店, lat => 34.70279302059221, lng => 135.5001132896876
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => セガ難波アビオン, lat => 34.66270504712055, lng => 135.50326824188232
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => アミュージアム よしもと店, lat => 34.665133988831926, lng => 135.50274521112442
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => タイトーFステーション梅田, lat => 34.70148900471609, lng => 135.50035536289215
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => タイトーFステーション あべのアポロ店, lat => 34.64692156750096, lng => 135.5119669427531
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ラウンドワン 北心斎橋店, lat => 34.67616591496671, lng => 135.50175547599792
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => ジョイランド天六, lat => 34.70980630860108, lng => 135.51139533519745
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ラウンドワン 平野店, lat => 34.635185306643564, lng => 135.54882287979126
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => まんだらけ グランドカオス, lat => 34.67042957297187, lng => 135.49813873839196
+  cat_id => 4bf58dd8d48988d114951735, cat_name => 書店
+name => ハイテクランドセガミスト2, lat => 34.699674405669086, lng => 135.49941827499586
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ラウンドワン JR尼崎駅前店, lat => 34.733359232061694, lng => 135.43287634849548
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => 天王寺パスカ PASSCA, lat => 34.6440591094844, lng => 135.51261149883632
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => じねん 鰻谷南店, lat => 34.674237, lng => 135.50456
+  cat_id => 4bf58dd8d48988d111941735, cat_name => 和食店
+name => ラウンドワン 東大阪店, lat => 34.65306358631969, lng => 135.6063723564148
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => ニューウメダ, lat => 34.69931470070564, lng => 135.49701572057106
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => エンジョイパラダイス, lat => 34.66462473051416, lng => 135.5718285730633
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ラウンドワン 豊中店, lat => 34.757466931648544, lng => 135.46552151441574
+  cat_id => 4bf58dd8d48988d1e4931735, cat_name => ボウリング場
+name => 心斎橋GIGO, lat => 34.67060360967322, lng => 135.50130542490322
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => プレイステーション ネーブル 江坂本店, lat => 34.757960543194876, lng => 135.4966163635254
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ゲームプラザ エム, lat => 34.735253562364036, lng => 135.56462913751602
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ゲームゼロ, lat => 34.69857654663472, lng => 135.49795923784066
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ホテル近鉄 ユニバーサルシティ (Kintetsu Universal City Hotel), lat => 34.668573213200254, lng => 135.4371464252472
+  cat_id => 4bf58dd8d48988d1fa931735, cat_name => ホテル
+name => 難波ヒルズ, lat => 34.66628556029219, lng => 135.50183057785034
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => キャンディウエスタン 三国店, lat => 34.73858407504603, lng => 135.48344135284424
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => セガワールド 布施, lat => 34.6641302113804, lng => 135.56289106607437
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => セガ あべのキューズモール, lat => 34.64528916751528, lng => 135.51232605148152
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => らんらんらんど 京橋店, lat => 34.696431686968, lng => 135.53251420979504
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ムーンライト弁天町, lat => 34.67086385202694, lng => 135.46023331853905
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => セガ新三国アルゴ７, lat => 34.735615638787294, lng => 135.48077178395238
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => セガワールドアポロ, lat => 34.64655441457995, lng => 135.51172256469727
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ナムコランド梅田店 DIVAエリア, lat => 34.70284892702978, lng => 135.50013630359484
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => クラブ セガ 東梅田, lat => 34.70305021669959, lng => 135.50390928983688
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => イル メルカート アンジェロ, lat => 34.67512811668644, lng => 135.49860360197954
+  cat_id => 4bf58dd8d48988d110941735, cat_name => イタリア料理店
+name => ザ インドアゲーム, lat => 34.72959292579994, lng => 135.5440405011177
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => 梅田ジョイポリス, lat => 34.70381791639119, lng => 135.50017772865627
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => ロイヤル, lat => 34.698675564646926, lng => 135.4998647402072
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => AMUSEMENT FACTORY AXE, lat => 34.66790062792037, lng => 135.50313281052638
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => あうとばぁん, lat => 34.65170883811592, lng => 135.58572739362717
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => SEGA あべのキューズモール, lat => 34.645909762953956, lng => 135.51243654702634
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+name => namcoマグスミノエ店, lat => 34.6101714922983, lng => 135.4681900451743
+  cat_id => 4bf58dd8d48988d1e1931735, cat_name => ゲームセンター
+50
