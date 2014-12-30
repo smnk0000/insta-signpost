@@ -114,16 +114,27 @@ function attachMessage(marker, msg, venue_id){
     infoWindow.open(marker.getMap(), marker);
     $("#insta_media").empty();
     if (msg != "現在地") {
-      var content = "";
-      var medias = get_insta_media(venue_id);
-      if (!(!medias.length)) {
-        for (var media_cnt = 0; media_cnt < medias.length; media_cnt++) {
-          content += "<a href=\"" + medias[media_cnt].link + "\" target=\"_blank\"><img src=\"" + medias[media_cnt].images.thumbnail.url + "\"></a>";
+      $.ajax({
+        cache: false,
+        type: "GET",
+        url: "/media.json",
+        dataType: "json",
+        data: {
+          id: venue_id
         }
-      } else {
-        content = "No Media";
-      }
-      $("#insta_media").append("<p>" + content + "</p>");
+      }).done(function(medias){
+        var content = "";
+        if (!(!medias.length)) {
+          for (var media_cnt = 0; media_cnt < medias.length; media_cnt++) {
+            content += "<a href=\"" + medias[media_cnt].link + "\" target=\"_blank\"><img src=\"" + medias[media_cnt].images.thumbnail.url + "\"></a>";
+          }
+        } else {
+          content = "No Media";
+        }
+        $("#insta_media").append(content);
+      }).fail(function(data){
+        console.log("NG");
+      });
     }
   });
 }
