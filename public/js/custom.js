@@ -10,7 +10,7 @@ function get_location() {
         // 位置情報取得に成功した場合
         var lat = pos.coords.latitude;
         var lng = pos.coords.longitude;
-        console.log("緯度 => " + lat + ", 経度 => " + lng);
+        //console.log("緯度 => " + lat + ", 経度 => " + lng);
         get_4sq_venues(lat, lng);
       },
       function(error) {
@@ -88,17 +88,6 @@ function draw_map(lat, lng, venues) {
       title: venues[i].name
     });
     attachMessage(marker, venues[i].name, venues[i].id);
-/*
-    if (!(!medias[i].length)) {
-      var content = "<div style=\"width : 435px;height : 325px;\">";
-      content += "<p><h3>" + data[i].name + "</h3></p>";
-      for (var media_cnt=0;media_cnt < medias[i].length;media_cnt++) {
-        content += "<a href=\"" + medias[i][media_cnt].link + "\" target=\"_blank\"><img src=\"" + medias[i][media_cnt].images.thumbnail.url + "\"></a>";
-      }
-      content += "</div>";
-      attachMessage(marker, content, data[i].id);
-    }
-*/
   }
 }
 
