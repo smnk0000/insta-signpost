@@ -12,18 +12,34 @@
         width: 100%;
         height: 100%;
       }
-      #map_canvas {
+      .map_container {
+        position: relative;
         width: 100%;
-        height: 640px;
-        margin: 0px;
-        padding: 0px;
+        padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
       }
-      #insta_media {
+      .map_container #map_canvas {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+      }
+
+      .insta_container {
+        position: relative;
         width: 100%;
-        height: 640px;
-        margin: 0px;
-        padding: 0px;
-        overflow: auto;
+        padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+      }
+      .insta_container #insta_media {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
       }
     </style>
 
