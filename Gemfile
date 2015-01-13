@@ -1,9 +1,9 @@
 source "https://rubygems.org"
-ruby "2.2.0"
+ruby "2.1.3"
 
 gem "sinatra"
 gem "sinatra-contrib"
-gem "unicorn"
+#gem "unicorn"
 gem "instagram"
 gem "foursquare2"
 
