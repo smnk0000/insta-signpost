@@ -24,10 +24,10 @@ get "/venues.json" do
   # 近くのスポットを検索する
   results = fsq_client.search_venues(
     :ll => "#{params[:lat]},#{params[:lng]}", # 緯度・経度の指定
-    :radius => 1000,                          # 捜索範囲
+    :radius => 1000,                          # 捜索範囲(m)
     :limit => 50,                             # 件数
     :intent => "browse",                      #
-    :categoryId => "4bf58dd8d48988d16d941735" # カテゴリ(カフェ)
+    :categoryId => "4bf58dd8d48988d128941735,4bf58dd8d48988d16d941735" # カテゴリ(カフェテリア、カフェ)
   )
   return results[:venues].to_json
 end
