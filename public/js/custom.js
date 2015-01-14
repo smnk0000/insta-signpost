@@ -58,8 +58,9 @@ function draw_map(lat, lng, venues) {
   });
   attachMessage(marker, "現在地");
 
-  // 4sqより取得した位置情報のマーカーを表示
+  $("#venue_inf").empty();
   for (var i=0;i<venues.length;i++) {
+    // 4sqより取得した位置情報のマーカーを表示
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(venues[i].location.lat, venues[i].location.lng),
       map: map,
@@ -67,6 +68,14 @@ function draw_map(lat, lng, venues) {
       title: venues[i].name
     });
     attachMessage(marker, venues[i].name, venues[i].id);
+
+    // 左側のカラムに取得したカフェの情報を表示
+    var content = "";
+    content += "<p>";
+    content += "<img src=\"" + venues[i].categories[0].icon.prefix + "bg_32" + venues[i].categories[0].icon.suffix + "\">";
+    content += venues[i].name + " (" + geoDistance(lat, lng, venues[i].location.lat, venues[i].location.lng, 1) + "m)";
+    content += "</p>";
+    $("#venue_inf").append(content);
   }
 }
 
@@ -105,4 +114,35 @@ function attachMessage(marker, msg, venue_id){
       });
     }
   });
+}
+
+//
+// 測地線航海算法の公式
+//
+function geoDistance(lat1, lng1, lat2, lng2, precision) {
+  // 引数　precision は小数点以下の桁数（距離の精度）
+  var distance = 0;
+  if ((Math.abs(lat1 - lat2) < 0.00001) && (Math.abs(lng1 - lng2) < 0.00001)) {
+    distance = 0;
+  } else {
+    lat1 = lat1 * Math.PI / 180;
+    lng1 = lng1 * Math.PI / 180;
+    lat2 = lat2 * Math.PI / 180;
+    lng2 = lng2 * Math.PI / 180;
+
+    var A = 6378140;
+    var B = 6356755;
+    var F = (A - B) / A;
+
+    var P1 = Math.atan((B / A) * Math.tan(lat1));
+    var P2 = Math.atan((B / A) * Math.tan(lat2));
+
+    var X = Math.acos(Math.sin(P1) * Math.sin(P2) + Math.cos(P1) * Math.cos(P2) * Math.cos(lng1 - lng2));
+    var L = (F / 8) * ((Math.sin(X) - X) * Math.pow((Math.sin(P1) + Math.sin(P2)), 2) / Math.pow(Math.cos(X / 2), 2) - (Math.sin(X) - X) * Math.pow(Math.sin(P1) - Math.sin(P2), 2) / Math.pow(Math.sin(X), 2));
+
+    distance = A * (X + L);
+    var decimal_no = Math.pow(10, precision);
+    distance = Math.round(decimal_no * distance / 1) / decimal_no;   // kmに変換するときは(1000で割る)
+  }
+  return distance;
 }
