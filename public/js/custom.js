@@ -74,7 +74,7 @@ function draw_map(lat, lng, venues) {
     content += "<p>";
     content += "<img src=\"" + venues[i].categories[0].icon.prefix + "bg_32" + venues[i].categories[0].icon.suffix + "\">";
     content += venues[i].name + " (" + geoDistance(lat, lng, venues[i].location.lat, venues[i].location.lng, 1) + "m)" + "<br />";
-    content += venues[i].location.formattedAddress;
+//    content += venues[i].location.formattedAddress;
     content += "</p>";
     $("#venue_inf").append(content);
   }
