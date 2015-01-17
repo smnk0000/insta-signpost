@@ -5,6 +5,7 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "instagram"
 gem "foursquare2"
+gem "httpclient"
 
 group :deelopment, :test do
   gem "foreman"

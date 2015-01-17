@@ -1,10 +1,16 @@
 require "sinatra"
 require "instagram"
 require "foursquare2"
+require "httpclient"
 require "json"
 
 require "sinatra/reloader" if development?
 require "pp"
+
+configure do
+  # ロケタッチAPIのエンドポイントを指定
+  API_ENDPOINT = "http://api.gourmet.livedoor.com/v1.0/restaurant/"
+end
 
 # TOPページアクセス時の処理
 get "/" do
@@ -50,4 +56,16 @@ get "/media.json" do
     response = medias
   end
   return response.to_json
+end
+
+# ロケタッチAPIより指定した店舗の営業時間等の情報を取得する
+get "/shop_inf.json" do
+  content_type :json
+  http_client = HTTPClient.new
+  response = http_client.get API_ENDPOINT,
+                             {"api_key" => ENV["LOCATOUCH_API_KEY"],
+                              "type" => "json",
+                              "name" => "#{params[:name].to_s}",
+                              "address" => "#{params[:address].to_s}"}
+  return response.body
 end
