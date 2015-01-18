@@ -68,16 +68,58 @@ function draw_map(lat, lng, venues) {
       title: venues[i].name
     });
     attachMessage(marker, venues[i].name, venues[i].id);
+    left_view_drow(venues[i], lat, lng)
+  }
+}
 
-    // 左側のカラムに取得したカフェの情報を表示
+// 左カラムの情報を表示する
+function left_view_drow(venue, lat, lng) {
+  // 左側のカラムに取得したカフェの情報を表示
+  $.ajax({
+    cache: false,
+    type: "GET",
+    url: "/shop_inf.json",
+    dataType: "json",
+    data: {
+      name: venue.name,
+      address: (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "")
+    }
+  }).done(function(data){
+    var content = "";
+    if (!data.results.error) {
+      console.log(data.results[0]);
+      console.log("==========");
+      var content = "";
+      content += "<p>";
+      content += "<img src=\"" + venue.categories[0].icon.prefix + "bg_32" + venue.categories[0].icon.suffix + "\">";
+      content += venue.name + "[<a href=\"" + data.results[0].permalink + "\" target=\"_blank\">店舗情報</a>]" + " (" + geoDistance(lat, lng, venue.location.lat, venue.location.lng, 1) + "m)" + "<br />";
+      content += "[平日]" + data.results[0].weekday + "<br />";
+      content += "[土曜]" + data.results[0].saturday + "<br />";
+      content += "[日曜・祝日]" + data.results[0].holiday + "<br />";
+      content += (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "");
+      content += "</p>";
+      $("#venue_inf").append(content);
+    } else {
+      var content = "";
+      content += "<p>";
+      content += "<img src=\"" + venue.categories[0].icon.prefix + "bg_32" + venue.categories[0].icon.suffix + "\">";
+      content += venue.name + " (" + geoDistance(lat, lng, venue.location.lat, venue.location.lng, 1) + "m)" + "<br />";
+      content += (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "");
+      content += "</p>";
+      $("#venue_inf").append(content);
+    }
+  }).fail(function(data){
+    // ajax通信失敗時
+    console.log(data.results[0]);
+    console.log("=== ERROR ===")
     var content = "";
     content += "<p>";
-    content += "<img src=\"" + venues[i].categories[0].icon.prefix + "bg_32" + venues[i].categories[0].icon.suffix + "\">";
-    content += venues[i].name + " (" + geoDistance(lat, lng, venues[i].location.lat, venues[i].location.lng, 1) + "m)" + "<br />";
-//    content += venues[i].location.formattedAddress;
+    content += "<img src=\"" + venue.categories[0].icon.prefix + "bg_32" + venue.categories[0].icon.suffix + "\">";
+    content += venue.name + " (" + geoDistance(lat, lng, venue.location.lat, venue.location.lng, 1) + "m)" + "<br />";
+    content += (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "");
     content += "</p>";
     $("#venue_inf").append(content);
-  }
+  });
 }
 
 // InfoWindowを表示する
