@@ -14,6 +14,7 @@ end
 
 # TOPページアクセス時の処理
 get "/" do
+  @title = "CafeStagram"
   erb :index
 end
 

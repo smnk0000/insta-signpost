@@ -93,10 +93,11 @@ function left_view_drow(venue, lat, lng) {
       content += "<p>";
       content += "<img src=\"" + venue.categories[0].icon.prefix + "bg_32" + venue.categories[0].icon.suffix + "\">";
       content += venue.name + "[<a href=\"" + data.results[0].permalink + "\" target=\"_blank\">店舗情報</a>]" + " (" + geoDistance(lat, lng, venue.location.lat, venue.location.lng, 1) + "m)" + "<br />";
-      content += "[平日]" + data.results[0].weekday + "<br />";
-      content += "[土曜]" + data.results[0].saturday + "<br />";
-      content += "[日曜・祝日]" + data.results[0].holiday + "<br />";
-      content += (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "");
+      content += (venue.location.address + " " + venue.location.crossStreet).replace(/undefined/g, "") + "<br />";
+      content += "営業時間：<br />";
+      content += "　[平日]" + data.results[0].weekday + "<br />";
+      content += "　[土曜]" + data.results[0].saturday + "<br />";
+      content += "　[日曜・祝日]" + data.results[0].holiday + "<br />";
       content += "</p>";
       $("#venue_inf").append(content);
     } else {
