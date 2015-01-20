@@ -38,15 +38,18 @@ results = fsq_client.search_venues(
             :ll => "34.7025018, 135.5531128",
             :radius => 10000,
             :limit => 50,
-            :intent => "browse"
-#            :categoryId => "4bf58dd8d48988d1e1931735"
+            :intent => "browse",
+            :categoryId => "4bf58dd8d48988d128941735,4bf58dd8d48988d16d941735"
           )
 results[:venues].each do |result|
+  pp result
+  puts "========="
 #  puts "id => #{result[:id]}, name => #{result[:name]}, lat => #{result[:location][:lat]}, lng => #{result[:location][:lng]}"
 #  result[:categories].each do |categorie|
 #    puts "  cat_id => #{categorie[:id]}, cat_name => #{categorie[:name]}"
 #  end
 
+=begin
   client = Instagram.client()
   locations = client.location_search(result[:id])
   for location in locations
@@ -62,4 +65,5 @@ results[:venues].each do |result|
       end
     end
   end
+=end
 end

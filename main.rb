@@ -1,13 +1,20 @@
 require "sinatra"
 require "instagram"
 require "foursquare2"
+require "httpclient"
 require "json"
 
 require "sinatra/reloader" if development?
 require "pp"
 
+configure do
+  # ロケタッチAPIのエンドポイントを指定
+  API_ENDPOINT = "http://api.gourmet.livedoor.com/v1.0/restaurant/"
+end
+
 # TOPページアクセス時の処理
 get "/" do
+  @title = "CafeStagram"
   erb :index
 end
 
@@ -24,10 +31,10 @@ get "/venues.json" do
   # 近くのスポットを検索する
   results = fsq_client.search_venues(
     :ll => "#{params[:lat]},#{params[:lng]}", # 緯度・経度の指定
-    :radius => 1000,                          # 捜索範囲
+    :radius => 1000,                          # 捜索範囲(m)
     :limit => 50,                             # 件数
     :intent => "browse",                      #
-    :categoryId => "4bf58dd8d48988d16d941735" # カテゴリ(カフェ)
+    :categoryId => "4bf58dd8d48988d128941735,4bf58dd8d48988d16d941735" # カテゴリ(カフェテリア、カフェ)
   )
   return results[:venues].to_json
 end
@@ -50,4 +57,16 @@ get "/media.json" do
     response = medias
   end
   return response.to_json
+end
+
+# ロケタッチAPIより指定した店舗の営業時間等の情報を取得する
+get "/shop_inf.json" do
+  content_type :json
+  http_client = HTTPClient.new
+  response = http_client.get API_ENDPOINT,
+                             {"api_key" => ENV["LOCATOUCH_API_KEY"],
+                              "type" => "json",
+                              "name" => "#{params[:name].to_s}",
+                              "address" => "#{params[:address].to_s}"}
+  return response.body
 end
