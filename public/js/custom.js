@@ -87,7 +87,11 @@ function draw_map(lat, lng, venues) {
       icon: venues[i].categories[0].icon.prefix + "bg_32" + venues[i].categories[0].icon.suffix,
       title: venues[i].name
     });
-    attachMessage(marker, venues[i].name, venues[i].id);
+    var tel = "";
+    if (venues[i].contact.formattedPhone){
+      tel = "0" + (venues[i].contact.formattedPhone).slice(4);
+    }
+    attachMessage(marker, venues[i].name + "<br>" + tel, venues[i].id);
   }
 }
 
