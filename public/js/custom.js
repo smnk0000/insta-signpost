@@ -51,12 +51,12 @@ function draw_map(lat, lng, venues) {
   var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
   // マーカーを表示
-  var marker = new google.maps.Marker({
+  var marker_now = new google.maps.Marker({
     position: pos,
     map: map,
     title: "現在地"
   });
-  attachMessage(marker, "現在地");
+  attachMessage(marker_now, "現在地");
 
   $("#venue_inf").empty();
   for (var i=0;i<venues.length;i++) {
@@ -74,6 +74,13 @@ function draw_map(lat, lng, venues) {
     attachMessage(marker, venues[i].name + "<br>" + tel, venues[i].id);
     left_view_drow(venues[i], lat, lng)
   }
+
+  // マップ上の中心座標が変化したら再表示
+  google.maps.event.addListener(map, 'click', function(e)
+  {
+    //map再表示
+    get_4sq_venues(e.latLng.lat(), e.latLng.lng());
+  })
 }
 
 // 左カラムの情報を表示する
